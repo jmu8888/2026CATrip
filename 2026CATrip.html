@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>穿越美国西南</title>
+<meta name="description" content="内华达、加利福尼亚、犹他、亚利桑那七日行记">
+<style>
+  :root{--bg:#faf7f2;--ink:#2b2620;--ink-soft:#5c5347;--accent:#b5601f;--accent-soft:#d98c3d;--rule:#e3d9c8;--card-bg:#fff}
+  @media (prefers-color-scheme: dark){:root{--bg:#1b1712;--ink:#ece5d8;--ink-soft:#b8ac98;--accent:#e0985a;--accent-soft:#c97f3a;--rule:#3a3225;--card-bg:#241f18}}
+  *{box-sizing:border-box}
+  html{background:var(--bg);scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Serif SC","Source Han Serif SC","Songti SC","SimSun","PingFang SC",serif;line-height:1.95;-webkit-font-smoothing:antialiased}
+  .gallery-link{position:fixed;top:18px;right:18px;z-index:50;padding:9px 18px;border-radius:999px;background:var(--ink);color:var(--bg);box-shadow:0 4px 14px rgba(43,38,32,.16);font-size:15px;text-decoration:none;transition:transform .15s,background .15s}
+  .gallery-link:hover,.gallery-link:focus-visible{background:var(--accent);color:#fff;transform:translateY(-1px)}
+  .wrap{max-width:760px;margin:0 auto;padding:4rem 1.5rem 6rem}
+  header.masthead{text-align:center;margin-bottom:3rem}
+  header.masthead h1{font-size:2.4rem;letter-spacing:.08em;margin:0 0 .8rem}
+  header.masthead .subtitle{font-size:1.05rem;color:var(--ink-soft);letter-spacing:.04em;margin:0 0 .6rem}
+  header.masthead .byline{font-size:.95rem;color:var(--accent);letter-spacing:.15em}
+  header.masthead .rule{width:64px;height:3px;background:var(--accent-soft);margin:1.6rem auto 0;border:none}
+  nav.toc{background:var(--card-bg);border:1px solid var(--rule);border-radius:10px;padding:1.4rem 1.8rem;margin:0 0 3.5rem}
+  nav.toc h2{font-size:.85rem;letter-spacing:.2em;color:var(--ink-soft);margin:0 0 .9rem;font-weight:600}
+  nav.toc ol{columns:2;column-gap:2rem;margin:0;padding:0 0 0 1.6rem;font-size:.95rem}
+  nav.toc li{margin-bottom:.4rem;break-inside:avoid}
+  nav.toc a{color:var(--ink);text-decoration:none;border-bottom:1px solid transparent}
+  nav.toc a:hover{color:var(--accent);border-bottom-color:var(--accent-soft)}
+  main h2{font-size:1.5rem;margin:3.6rem 0 .3rem;padding-bottom:.6rem;border-bottom:2px solid var(--rule);letter-spacing:.03em;scroll-margin-top:1.5rem}
+  main h2:first-of-type{margin-top:0}
+  main p{margin:0 0 1.3rem;font-size:1.05rem;text-align:justify;text-indent:2em}
+  main p.when{text-indent:0;color:var(--accent);font-size:.9rem;letter-spacing:.08em;margin:.5rem 0 1.2rem}
+  figure{margin:2rem 0;text-align:center}
+  figure img{max-width:100%;height:auto;border-radius:6px;box-shadow:0 6px 24px rgba(0,0,0,.12);cursor:zoom-in}
+  figure.portrait img{max-height:640px;width:auto}
+  figure.pano{margin-left:calc(50% - min(48vw,600px));margin-right:calc(50% - min(48vw,600px))}
+  footer{margin-top:4.5rem;padding-top:1.6rem;border-top:1px solid var(--rule);text-align:center;color:var(--ink-soft);font-size:.85rem;letter-spacing:.05em}
+  footer a{color:var(--accent)}
+  .viewer{position:fixed;inset:0;z-index:100;display:grid;place-items:center;background:#17130f;padding:12px;touch-action:pan-y;user-select:none}
+  .viewer[hidden]{display:none}
+  .viewer img{max-width:100%;max-height:calc(100dvh - 24px);object-fit:contain;box-shadow:0 25px 70px #000;cursor:zoom-out}
+  .icon{position:absolute;display:grid;place-items:center;width:48px;height:48px;border:0;border-radius:50%;background:#ffffff18;color:#fff;cursor:pointer;font-size:25px}
+  .icon:hover{background:#ffffff30}.close{right:18px;top:18px}.prev{left:18px;top:50%}.next{right:18px;top:50%}
+  @media (max-width:600px){.wrap{padding:4.2rem 1.1rem 4rem}header.masthead h1{font-size:1.9rem}nav.toc ol{columns:1}main p{font-size:1rem}figure.pano{margin-left:-1.1rem;margin-right:-1.1rem}figure.pano img{border-radius:0}.gallery-link{position:absolute;top:14px;right:14px}.prev{left:6px}.next{right:6px}}
+</style>
+</head>
+<body>
+<a class="gallery-link" href="index.html">照片集</a>
+<div class="wrap">
+  <header class="masthead">
+    <h1>穿越美国西南</h1>
+    <p class="subtitle">内华达、加利福尼亚、犹他、亚利桑那七日行记</p>
+    <p class="byline">穆建西 · 2026 年 10 月 · iPhone 拍摄</p>
+    <hr class="rule">
+  </header>
+
+  <nav class="toc">
+    <h2>目录</h2>
+    <ol>
+<li><a href="#ch1">飞抵拉斯维加斯</a></li>
+<li><a href="#ch2">红岩峡谷</a></li>
+<li><a href="#ch3">死亡谷：艺术家大道</a></li>
+<li><a href="#ch4">恶水盆地的日落</a></li>
+<li><a href="#ch5">火炉溪之夜</a></li>
+<li><a href="#ch6">梅斯基特沙丘日出</a></li>
+<li><a href="#ch7">盐溪</a></li>
+<li><a href="#ch8">马赛克峡谷</a></li>
+<li><a href="#ch9">但丁观景台</a></li>
+<li><a href="#ch10">扎布里斯基角</a></li>
+<li><a href="#ch11">告别死亡谷</a></li>
+<li><a href="#ch12">锡安国家公园</a></li>
+<li><a href="#ch13">布莱斯峡谷</a></li>
+<li><a href="#ch14">佩吉：格伦峡谷与马蹄湾</a></li>
+<li><a href="#ch15">羚羊峡谷</a></li>
+<li><a href="#ch16">大峡谷南缘</a></li>
+<li><a href="#ch17">金曼：66 号公路</a></li>
+<li><a href="#ch18">93 号公路</a></li>
+<li><a href="#ch19">胡佛水坝</a></li>
+<li><a href="#ch20">拉斯维加斯大道</a></li>
+<li><a href="#ch21">百乐宫温室花园</a></li>
+<li><a href="#ch22">百乐宫喷泉</a></li>
+<li><a href="#ch23">水上秀《O》</a></li>
+<li><a href="#end">尾声</a></li>
+    </ol>
+  </nav>
+
+  <main>
+<h2 id="ch1">飞抵拉斯维加斯</h2>
+<p class="when">10 月 25 日 · 内华达</p>
+<p>飞机进入内华达上空，窗外是连绵的荒山，山顶已经落了一层薄雪，傍晚的光线把山脊勾得清清楚楚。这一路要看的，几乎全是这样的山、这样的石头和这样的天空。</p>
+<p>落地拉斯维加斯已是夜里。威尼斯人酒店的钟楼和拱廊灯火通明，不远处吉他造型的硬石酒店像一件巨大的乐器立在夜空里。旅程就从这座不夜城出发。</p>
+<figure class="landscape"><img src="images/IMG_0441.jpg" width="1600" height="900" loading="lazy" alt="飞抵拉斯维加斯"></figure>
+<figure class="landscape"><img src="images/IMG_0492.jpg" width="1600" height="900" loading="lazy" alt="飞抵拉斯维加斯"></figure>
+<figure class="portrait"><img src="images/IMG_0501.jpg" width="900" height="1600" loading="lazy" alt="飞抵拉斯维加斯"></figure>
+<h2 id="ch2">红岩峡谷</h2>
+<p class="when">10 月 26 日上午 · 内华达</p>
+<p>离开拉斯维加斯市区不过半小时，就进入了红岩峡谷。灰白色的石灰岩山体和赭红色的砂岩层层相叠，在清晨的蓝天下格外分明。</p>
+<p>全景照片最能装下这样的山。游客中心里，一只大角羊的标本昂首站在岩石上，这是莫哈韦沙漠里最有代表性的动物之一。</p>
+<figure class="pano"><img src="images/IMG_0521.jpg" width="2400" height="729" loading="lazy" alt="红岩峡谷"></figure>
+<figure class="pano"><img src="images/IMG_0530.jpg" width="2400" height="712" loading="lazy" alt="红岩峡谷"></figure>
+<figure class="pano"><img src="images/IMG_0537.jpg" width="2400" height="571" loading="lazy" alt="红岩峡谷"></figure>
+<figure class="pano"><img src="images/IMG_0608.jpg" width="2400" height="1071" loading="lazy" alt="红岩峡谷"></figure>
+<h2 id="ch3">死亡谷：艺术家大道</h2>
+<p class="when">10 月 26 日下午 · 加利福尼亚</p>
+<p>中午进入死亡谷国家公园。山坡上的岩层被矿物染成了黄、褐、青、粉各种颜色，公路在其间弯弯曲曲地穿过，正是艺术家大道得名的原因。</p>
+<p>这里几乎寸草不生，但正因为没有植被遮挡，大地本身的颜色和纹理全都露了出来。</p>
+<figure class="landscape"><img src="images/IMG_0620.jpg" width="1600" height="900" loading="lazy" alt="死亡谷：艺术家大道"></figure>
+<figure class="landscape"><img src="images/IMG_0644.jpg" width="1600" height="900" loading="lazy" alt="死亡谷：艺术家大道"></figure>
+<figure class="pano"><img src="images/IMG_0655.jpg" width="2400" height="853" loading="lazy" alt="死亡谷：艺术家大道"></figure>
+<figure class="landscape"><img src="images/IMG_0688.jpg" width="1600" height="746" loading="lazy" alt="死亡谷：艺术家大道"></figure>
+<h2 id="ch4">恶水盆地的日落</h2>
+<p class="when">10 月 26 日傍晚 · 加利福尼亚</p>
+<p>恶水盆地海拔约负 86 米，是北美洲的最低点。脚下是一望无际的盐壳，龟裂成一块块多边形，像被谁铺好的地砖。</p>
+<p>太阳落向西边的群山，逆光里盐滩泛着冷冷的白光；回头看，东侧山坡被夕阳染成金色，与白色的盐原形成强烈的对比。</p>
+<figure class="landscape"><img src="images/IMG_0734.jpg" width="1600" height="791" loading="lazy" alt="恶水盆地的日落"></figure>
+<figure class="landscape"><img src="images/IMG_0755.jpg" width="1600" height="874" loading="lazy" alt="恶水盆地的日落"></figure>
+<figure class="landscape"><img src="images/IMG_0786.jpg" width="1600" height="848" loading="lazy" alt="恶水盆地的日落"></figure>
+<h2 id="ch5">火炉溪之夜</h2>
+<p class="when">10 月 26 日夜 · 加利福尼亚</p>
+<p>晚上住在火炉溪。院子里停着当年运送硼砂的老马车，巨大的木轮在夜灯下投出长长的影子，让人想起这片沙漠一百多年前的采矿岁月。</p>
+<figure class="landscape"><img src="images/IMG_0792.jpg" width="1600" height="900" loading="lazy" alt="火炉溪之夜"></figure>
+<figure class="landscape"><img src="images/IMG_0794.jpg" width="1600" height="900" loading="lazy" alt="火炉溪之夜"></figure>
+<h2 id="ch6">梅斯基特沙丘日出</h2>
+<p class="when">10 月 27 日清晨 · 加利福尼亚</p>
+<p>天还没亮就出发去梅斯基特平原沙丘。太阳从远山后面跳出来的那一刻，沙丘的阴面和阳面一下子分开，风吹出的波纹清晰可见。</p>
+<p>沙面上留着一串串脚印，有人的，也有小动物的。远处有人在沙丘顶上拍照，人在这里显得特别小。一截枯木横在沙上，被晨光照得发亮。</p>
+<figure class="landscape"><img src="images/IMG_0856.jpg" width="1600" height="900" loading="lazy" alt="梅斯基特沙丘日出"></figure>
+<figure class="landscape"><img src="images/IMG_0866.jpg" width="1600" height="900" loading="lazy" alt="梅斯基特沙丘日出"></figure>
+<figure class="landscape"><img src="images/IMG_0870.jpg" width="1600" height="900" loading="lazy" alt="梅斯基特沙丘日出"></figure>
+<figure class="landscape"><img src="images/IMG_0876.jpg" width="1600" height="900" loading="lazy" alt="梅斯基特沙丘日出"></figure>
+<figure class="landscape"><img src="images/IMG_0907.jpg" width="1600" height="900" loading="lazy" alt="梅斯基特沙丘日出"></figure>
+<figure class="landscape"><img src="images/IMG_0909.jpg" width="1600" height="900" loading="lazy" alt="梅斯基特沙丘日出"></figure>
+<figure class="landscape"><img src="images/IMG_0917.jpg" width="1600" height="900" loading="lazy" alt="梅斯基特沙丘日出"></figure>
+<figure class="landscape"><img src="images/IMG_0932.jpg" width="1600" height="900" loading="lazy" alt="梅斯基特沙丘日出"></figure>
+<figure class="landscape"><img src="images/IMG_0939.jpg" width="1600" height="900" loading="lazy" alt="梅斯基特沙丘日出"></figure>
+<figure class="landscape"><img src="images/IMG_0947.jpg" width="1600" height="900" loading="lazy" alt="梅斯基特沙丘日出"></figure>
+<figure class="landscape"><img src="images/IMG_0968.jpg" width="1600" height="900" loading="lazy" alt="梅斯基特沙丘日出"></figure>
+<h2 id="ch7">盐溪</h2>
+<p class="when">10 月 27 日上午 · 加利福尼亚</p>
+<p>盐溪是死亡谷里难得有水的地方。木栈道沿着溪床延伸，干涸处的泥地裂成了细密的花纹。溪水里生活着一种在冰川时代就被困在这里的小鱼，只是这个季节不容易见到。</p>
+<figure class="landscape"><img src="images/IMG_0988.jpg" width="1600" height="900" loading="lazy" alt="盐溪"></figure>
+<figure class="pano"><img src="images/IMG_1008.jpg" width="2400" height="931" loading="lazy" alt="盐溪"></figure>
+<figure class="landscape"><img src="images/IMG_1024.jpg" width="1600" height="900" loading="lazy" alt="盐溪"></figure>
+<h2 id="ch8">马赛克峡谷</h2>
+<p class="when">10 月 27 日中午 · 加利福尼亚</p>
+<p>走进马赛克峡谷，两侧是被流水打磨得光滑如玉的大理石岩壁，有的地方嵌满了碎石，像一幅天然的马赛克拼图。峡谷很窄，竖构图更能表现它的高耸。</p>
+<figure class="landscape"><img src="images/IMG_1042.jpg" width="1600" height="900" loading="lazy" alt="马赛克峡谷"></figure>
+<figure class="portrait"><img src="images/IMG_1045.jpg" width="900" height="1600" loading="lazy" alt="马赛克峡谷"></figure>
+<figure class="portrait"><img src="images/IMG_1051.jpg" width="900" height="1600" loading="lazy" alt="马赛克峡谷"></figure>
+<h2 id="ch9">但丁观景台</h2>
+<p class="when">10 月 27 日下午 · 加利福尼亚</p>
+<p>但丁观景台高出谷底一千六百多米，整个死亡谷尽收眼底。脚下白色的一片就是前一天走过的恶水盆地，对面是帕纳明特山脉。站在这里才真正明白这条山谷有多大。</p>
+<figure class="pano"><img src="images/IMG_1098.jpg" width="2400" height="1089" loading="lazy" alt="但丁观景台"></figure>
+<h2 id="ch10">扎布里斯基角</h2>
+<p class="when">10 月 27 日傍晚 · 加利福尼亚</p>
+<p>扎布里斯基角是死亡谷最有名的日落观景点。古湖床的沉积层被侵蚀成一道道起伏的沟壑，像凝固的波浪；曼利灯塔峰从中间尖尖地突起。</p>
+<p>太阳慢慢落下，光线越压越低，沟壑的明暗层次也越来越丰富，直到最后一缕光离开山脊。</p>
+<figure class="landscape"><img src="images/IMG_1117.jpg" width="1600" height="900" loading="lazy" alt="扎布里斯基角"></figure>
+<figure class="landscape"><img src="images/IMG_1158.jpg" width="1600" height="900" loading="lazy" alt="扎布里斯基角"></figure>
+<figure class="pano"><img src="images/IMG_1161.jpg" width="2400" height="787" loading="lazy" alt="扎布里斯基角"></figure>
+<figure class="landscape"><img src="images/IMG_1172.jpg" width="1600" height="900" loading="lazy" alt="扎布里斯基角"></figure>
+<figure class="landscape"><img src="images/IMG_1199.jpg" width="1600" height="839" loading="lazy" alt="扎布里斯基角"></figure>
+<figure class="landscape"><img src="images/IMG_1207.jpg" width="1600" height="900" loading="lazy" alt="扎布里斯基角"></figure>
+<h2 id="ch11">告别死亡谷</h2>
+<p class="when">10 月 28 日清晨 · 加利福尼亚</p>
+<p>离开死亡谷的早晨，天边烧起一片红霞，透过火炉溪牧场的石门望出去，像是给这几天的沙漠之旅画上了一个句号。</p>
+<figure class="landscape"><img src="images/IMG_1268.jpg" width="1600" height="900" loading="lazy" alt="告别死亡谷"></figure>
+<figure class="landscape"><img src="images/IMG_1276.jpg" width="1600" height="900" loading="lazy" alt="告别死亡谷"></figure>
+<h2 id="ch12">锡安国家公园</h2>
+<p class="when">10 月 28 日下午 · 犹他</p>
+<p>一路向东进入犹他州，景色从灰黄的沙漠变成了高耸的红色岩壁。锡安峡谷里，族长庭院的三座巨岩并排矗立，维珍河在谷底静静流过。</p>
+<p>峡谷里秋意正浓，树叶开始泛黄。傍晚回到斯普林代尔小镇，夕阳把整面山崖照得通红。</p>
+<figure class="landscape"><img src="images/IMG_1356.jpg" width="1600" height="900" loading="lazy" alt="锡安国家公园"></figure>
+<figure class="landscape"><img src="images/IMG_1358_1.jpg" width="1600" height="885" loading="lazy" alt="锡安国家公园"></figure>
+<figure class="portrait"><img src="images/IMG_1364_1.jpg" width="675" height="1600" loading="lazy" alt="锡安国家公园"></figure>
+<figure class="landscape"><img src="images/IMG_1379.jpg" width="1600" height="900" loading="lazy" alt="锡安国家公园"></figure>
+<figure class="landscape"><img src="images/IMG_1417.jpg" width="1600" height="900" loading="lazy" alt="锡安国家公园"></figure>
+<figure class="landscape"><img src="images/IMG_1502.jpg" width="1600" height="944" loading="lazy" alt="锡安国家公园"></figure>
+<h2 id="ch13">布莱斯峡谷</h2>
+<p class="when">10 月 29 日 · 犹他</p>
+<p>布莱斯峡谷其实不是峡谷，而是一个巨大的露天剧场，里面密密麻麻站满了被风化出来的石柱，当地人叫它们“胡毒柱”。最有名的一根是雷神之锤，顶上顶着一块方石。</p>
+<p>这天多云，光线柔和，正好把石柱的橙、粉、白几种颜色都表现出来。崖边一棵老树的根系裸露在外，紧紧抓着正在被侵蚀的土地。</p>
+<figure class="landscape"><img src="images/IMG_1615.jpg" width="1600" height="900" loading="lazy" alt="布莱斯峡谷"></figure>
+<figure class="landscape"><img src="images/IMG_1661.jpg" width="1600" height="900" loading="lazy" alt="布莱斯峡谷"></figure>
+<figure class="landscape"><img src="images/IMG_1721.jpg" width="1600" height="900" loading="lazy" alt="布莱斯峡谷"></figure>
+<figure class="landscape"><img src="images/IMG_1723.jpg" width="1600" height="900" loading="lazy" alt="布莱斯峡谷"></figure>
+<figure class="landscape"><img src="images/IMG_1753.jpg" width="1600" height="900" loading="lazy" alt="布莱斯峡谷"></figure>
+<figure class="landscape"><img src="images/IMG_1754.jpg" width="1600" height="900" loading="lazy" alt="布莱斯峡谷"></figure>
+<figure class="landscape"><img src="images/IMG_1780.jpg" width="1600" height="900" loading="lazy" alt="布莱斯峡谷"></figure>
+<figure class="pano"><img src="images/IMG_1807.jpg" width="2400" height="736" loading="lazy" alt="布莱斯峡谷"></figure>
+<h2 id="ch14">佩吉：格伦峡谷与马蹄湾</h2>
+<p class="when">10 月 30 日上午 · 亚利桑那</p>
+<p>进入亚利桑那，先经过格伦峡谷大桥，钢拱横跨在红色的砂岩之上。</p>
+<p>马蹄湾是科罗拉多河在这里绕出的一个近乎完整的圆弧。站在没有护栏的崖边往下看，三百米深处的河水碧绿，游船小得像一片叶子。</p>
+<figure class="landscape"><img src="images/IMG_1884.jpg" width="1600" height="900" loading="lazy" alt="佩吉：格伦峡谷与马蹄湾"></figure>
+<figure class="landscape"><img src="images/IMG_1890.jpg" width="1600" height="900" loading="lazy" alt="佩吉：格伦峡谷与马蹄湾"></figure>
+<figure class="landscape"><img src="images/IMG_1897.jpg" width="1600" height="900" loading="lazy" alt="佩吉：格伦峡谷与马蹄湾"></figure>
+<figure class="landscape"><img src="images/IMG_1903.jpg" width="1600" height="900" loading="lazy" alt="佩吉：格伦峡谷与马蹄湾"></figure>
+<figure class="portrait"><img src="images/IMG_1913_1.jpg" width="1200" height="1600" loading="lazy" alt="佩吉：格伦峡谷与马蹄湾"></figure>
+<h2 id="ch15">羚羊峡谷</h2>
+<p class="when">10 月 30 日中午 · 亚利桑那</p>
+<p>羚羊峡谷位于纳瓦霍保留地，必须跟随当地向导进入。地面上看只是一道不起眼的裂缝，走进去却是另一个世界。</p>
+<p>千百年的山洪和风沙把砂岩雕成了流动的曲线，光从顶上的缝隙漏进来，在岩壁间反射，红色、橙色、紫色层层变化。手机在这样的光线里反而很好用。</p>
+<figure class="portrait"><img src="images/IMG_1940_1.jpg" width="1200" height="1600" loading="lazy" alt="羚羊峡谷"></figure>
+<figure class="portrait"><img src="images/IMG_2006_1.jpg" width="1200" height="1600" loading="lazy" alt="羚羊峡谷"></figure>
+<figure class="landscape"><img src="images/IMG_2008_1.jpg" width="1600" height="1200" loading="lazy" alt="羚羊峡谷"></figure>
+<figure class="portrait"><img src="images/IMG_2012_1.jpg" width="1200" height="1600" loading="lazy" alt="羚羊峡谷"></figure>
+<figure class="portrait"><img src="images/IMG_2049_1.jpg" width="1200" height="1600" loading="lazy" alt="羚羊峡谷"></figure>
+<figure class="landscape"><img src="images/IMG_2093_1.jpg" width="1600" height="900" loading="lazy" alt="羚羊峡谷"></figure>
+<h2 id="ch16">大峡谷南缘</h2>
+<p class="when">10 月 30 日下午 · 亚利桑那</p>
+<p>下午到了大峡谷南缘的沙漠观景点一带。眼前的峡谷一层叠一层地铺向天边，科罗拉多河在谷底蜿蜒。</p>
+<p>这里的渡鸦一点也不怕人，成双成对地站在悬崖边，有一只还在镜头前展开了翅膀，乌黑的羽毛映着身后的峡谷。</p>
+<figure class="landscape"><img src="images/IMG_2106_1.jpg" width="1600" height="900" loading="lazy" alt="大峡谷南缘"></figure>
+<figure class="landscape"><img src="images/IMG_2108_1.jpg" width="1600" height="900" loading="lazy" alt="大峡谷南缘"></figure>
+<figure class="landscape"><img src="images/IMG_2135_1.jpg" width="1600" height="900" loading="lazy" alt="大峡谷南缘"></figure>
+<figure class="portrait"><img src="images/IMG_2151_1.jpg" width="1200" height="1600" loading="lazy" alt="大峡谷南缘"></figure>
+<figure class="landscape"><img src="images/IMG_2174_1.jpg" width="1600" height="1200" loading="lazy" alt="大峡谷南缘"></figure>
+<h2 id="ch17">金曼：66 号公路</h2>
+<p class="when">10 月 31 日上午 · 亚利桑那</p>
+<p>金曼是 66 号公路上的老城。复古的餐馆、老式警车、旧加油站和霓虹招牌，一切都停留在上世纪五六十年代的样子。</p>
+<p>红色的老吉普、黑色的老轿车随意停在路边，仿佛随时可以发动，沿着这条“母亲之路”继续向西开去。</p>
+<figure class="landscape"><img src="images/IMG_2216.jpg" width="1600" height="900" loading="lazy" alt="金曼：66 号公路"></figure>
+<figure class="landscape"><img src="images/IMG_2218.jpg" width="1600" height="900" loading="lazy" alt="金曼：66 号公路"></figure>
+<figure class="landscape"><img src="images/IMG_2220.jpg" width="1600" height="900" loading="lazy" alt="金曼：66 号公路"></figure>
+<figure class="landscape"><img src="images/IMG_2225.jpg" width="1600" height="900" loading="lazy" alt="金曼：66 号公路"></figure>
+<figure class="landscape"><img src="images/IMG_2231.jpg" width="1600" height="900" loading="lazy" alt="金曼：66 号公路"></figure>
+<figure class="landscape"><img src="images/IMG_2233.jpg" width="1600" height="900" loading="lazy" alt="金曼：66 号公路"></figure>
+<figure class="portrait"><img src="images/IMG_2238.jpg" width="1200" height="1600" loading="lazy" alt="金曼：66 号公路"></figure>
+<figure class="landscape"><img src="images/IMG_2248.jpg" width="1600" height="900" loading="lazy" alt="金曼：66 号公路"></figure>
+<figure class="landscape"><img src="images/IMG_2276.jpg" width="1600" height="900" loading="lazy" alt="金曼：66 号公路"></figure>
+<h2 id="ch18">93 号公路</h2>
+<p class="when">10 月 31 日中午 · 亚利桑那</p>
+<p>从金曼沿 93 号公路北上，路两边是开阔的荒原，天上的云压得很低，远处一排风力发电机在慢慢转动。</p>
+<figure class="landscape"><img src="images/IMG_2290.jpg" width="1600" height="900" loading="lazy" alt="93 号公路"></figure>
+<figure class="landscape"><img src="images/IMG_2296.jpg" width="1600" height="900" loading="lazy" alt="93 号公路"></figure>
+<h2 id="ch19">胡佛水坝</h2>
+<p class="when">10 月 31 日下午 · 内华达 / 亚利桑那</p>
+<p>胡佛水坝横卧在黑峡谷中，把科罗拉多河拦成了米德湖。湖岸上一圈白色的水位线，记录着这些年湖水下降的幅度。</p>
+<p>大坝下游，一座混凝土拱桥飞跨峡谷，这是绕开大坝的新公路桥。坝顶两座取水塔上各有一个时钟，一个是内华达时间，一个是亚利桑那时间，走过大坝就跨过了州界。</p>
+<figure class="pano"><img src="images/IMG_2306.jpg" width="2400" height="775" loading="lazy" alt="胡佛水坝"></figure>
+<figure class="landscape"><img src="images/IMG_2376.jpg" width="1600" height="900" loading="lazy" alt="胡佛水坝"></figure>
+<figure class="landscape"><img src="images/IMG_2384.jpg" width="1600" height="900" loading="lazy" alt="胡佛水坝"></figure>
+<figure class="landscape"><img src="images/IMG_2385.jpg" width="1600" height="1600" loading="lazy" alt="胡佛水坝"></figure>
+<figure class="landscape"><img src="images/IMG_2387.jpg" width="1600" height="900" loading="lazy" alt="胡佛水坝"></figure>
+<figure class="landscape"><img src="images/IMG_2394.jpg" width="1600" height="900" loading="lazy" alt="胡佛水坝"></figure>
+<figure class="portrait"><img src="images/IMG_2396.jpg" width="864" height="1600" loading="lazy" alt="胡佛水坝"></figure>
+<figure class="landscape"><img src="images/IMG_2398.jpg" width="1600" height="900" loading="lazy" alt="胡佛水坝"></figure>
+<h2 id="ch20">拉斯维加斯大道</h2>
+<p class="when">10 月 31 日傍晚 · 内华达</p>
+<p>回到拉斯维加斯，正赶上一片乌云压城。火烈鸟酒店的招牌、恺撒宫的雕像喷泉、百乐宫的立面，在阴沉的天色下反而更有戏剧感。</p>
+<figure class="landscape"><img src="images/IMG_2427.jpg" width="1600" height="900" loading="lazy" alt="拉斯维加斯大道"></figure>
+<figure class="landscape"><img src="images/IMG_2429.jpg" width="1600" height="900" loading="lazy" alt="拉斯维加斯大道"></figure>
+<figure class="landscape"><img src="images/IMG_2430.jpg" width="1600" height="900" loading="lazy" alt="拉斯维加斯大道"></figure>
+<figure class="portrait"><img src="images/IMG_2436.jpg" width="1328" height="1600" loading="lazy" alt="拉斯维加斯大道"></figure>
+<figure class="landscape"><img src="images/IMG_2438.jpg" width="1600" height="900" loading="lazy" alt="拉斯维加斯大道"></figure>
+<figure class="landscape"><img src="images/IMG_2450.jpg" width="1600" height="900" loading="lazy" alt="拉斯维加斯大道"></figure>
+<figure class="landscape"><img src="images/IMG_2454.jpg" width="1600" height="900" loading="lazy" alt="拉斯维加斯大道"></figure>
+<figure class="landscape"><img src="images/IMG_2460.jpg" width="1600" height="900" loading="lazy" alt="拉斯维加斯大道"></figure>
+<h2 id="ch21">百乐宫温室花园</h2>
+<p class="when">10 月 31 日晚 · 内华达</p>
+<p>百乐宫的温室花园每个季节换一次布景。这次是秋天的主题，满眼红叶，用枯木拼成的鹿和鹤、巨大的青蛙和蘑菇，像走进了一个童话森林。</p>
+<figure class="landscape"><img src="images/IMG_2478.jpg" width="1600" height="900" loading="lazy" alt="百乐宫温室花园"></figure>
+<figure class="landscape"><img src="images/IMG_2479.jpg" width="1600" height="1200" loading="lazy" alt="百乐宫温室花园"></figure>
+<figure class="landscape"><img src="images/IMG_2481.jpg" width="1600" height="900" loading="lazy" alt="百乐宫温室花园"></figure>
+<figure class="landscape"><img src="images/IMG_2482.jpg" width="1600" height="900" loading="lazy" alt="百乐宫温室花园"></figure>
+<figure class="landscape"><img src="images/IMG_2484.jpg" width="1600" height="900" loading="lazy" alt="百乐宫温室花园"></figure>
+<figure class="landscape"><img src="images/IMG_2485.jpg" width="1600" height="1143" loading="lazy" alt="百乐宫温室花园"></figure>
+<figure class="landscape"><img src="images/IMG_2486.jpg" width="1600" height="1200" loading="lazy" alt="百乐宫温室花园"></figure>
+<figure class="landscape"><img src="images/IMG_2490.jpg" width="1600" height="900" loading="lazy" alt="百乐宫温室花园"></figure>
+<h2 id="ch22">百乐宫喷泉</h2>
+<p class="when">10 月 31 日晚 · 内华达</p>
+<p>夜色中的百乐宫湖，对岸是巴黎酒店的埃菲尔铁塔和热气球。音乐一响，喷泉随着旋律升起，在灯光下像一排白色的焰火。</p>
+<figure class="landscape"><img src="images/IMG_2506.jpg" width="1600" height="900" loading="lazy" alt="百乐宫喷泉"></figure>
+<figure class="landscape"><img src="images/IMG_2507.jpg" width="1600" height="900" loading="lazy" alt="百乐宫喷泉"></figure>
+<figure class="landscape"><img src="images/IMG_2565.jpg" width="1600" height="900" loading="lazy" alt="百乐宫喷泉"></figure>
+<h2 id="ch23">水上秀《O》</h2>
+<p class="when">10 月 31 日夜 · 内华达</p>
+<p>旅程的最后一晚，在百乐宫观看太阳马戏团的水上秀《O》。舞台时而是水池，时而又变成坚实的地面，演员从高空跃入水中，又从水里浮现出来。</p>
+<p>小丑的滑稽、剪影的诗意、高空秋千和叠罗汉的惊险，一幕接一幕。灯光、水雾和人体组合成一幅幅流动的画面，为这趟沙漠与峡谷之旅画上了最华丽的句号。</p>
+<figure class="landscape"><img src="images/IMG_2625.jpg" width="1600" height="1067" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="landscape"><img src="images/IMG_2637.jpg" width="1600" height="900" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="portrait"><img src="images/IMG_2639.jpg" width="1200" height="1600" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="landscape"><img src="images/IMG_2653.jpg" width="1600" height="900" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="portrait"><img src="images/IMG_2656.jpg" width="1200" height="1600" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="portrait"><img src="images/IMG_2672.jpg" width="1200" height="1600" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="landscape"><img src="images/IMG_2679.jpg" width="1600" height="900" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="landscape"><img src="images/IMG_2699.jpg" width="1600" height="900" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="landscape"><img src="images/IMG_2703.jpg" width="1600" height="900" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="landscape"><img src="images/IMG_2713.jpg" width="1600" height="1200" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="landscape"><img src="images/IMG_2721.jpg" width="1600" height="1200" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="landscape"><img src="images/IMG_2740.jpg" width="1600" height="1067" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="landscape"><img src="images/IMG_2750.jpg" width="1600" height="1600" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="portrait"><img src="images/IMG_2765.jpg" width="1200" height="1600" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="landscape"><img src="images/IMG_2771.jpg" width="1600" height="900" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="portrait"><img src="images/IMG_2780.jpg" width="1200" height="1600" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="portrait"><img src="images/IMG_2782.jpg" width="1200" height="1600" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="portrait"><img src="images/IMG_2808.jpg" width="1200" height="1600" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="landscape"><img src="images/IMG_2816.jpg" width="1600" height="1067" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="portrait"><img src="images/IMG_2833.jpg" width="1200" height="1600" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="landscape"><img src="images/IMG_2855.jpg" width="1600" height="900" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="portrait"><img src="images/IMG_2874.jpg" width="1200" height="1600" loading="lazy" alt="水上秀《O》"></figure>
+<figure class="landscape"><img src="images/IMG_2887.jpg" width="1600" height="900" loading="lazy" alt="水上秀《O》"></figure>
+<h2 id="end">尾声</h2>
+<p>七天时间，从拉斯维加斯出发，穿过内华达、加利福尼亚、犹他和亚利桑那四个州，又回到拉斯维加斯。</p>
+<p>看过了北美最低的盐滩、日出时的沙丘、红色的岩壁、石柱的剧场、绕成圆圈的河流、光影流动的峡谷，也看过了一座城市在沙漠里造出的繁华。这些风景都用一部手机记录下来。山和石头不会改变，改变的只是看它们的人。</p>
+  </main>
+
+  <footer>
+    <p>穿越美国西南 · 2026 年 10 月 25 日—31 日</p>
+  </footer>
+</div>
+<div id="viewer" class="viewer" role="dialog" aria-modal="true" aria-label="照片查看" hidden><button class="icon close" aria-label="关闭">×</button><button class="icon prev" aria-label="上一张">‹</button><img id="large" alt=""><button class="icon next" aria-label="下一张">›</button></div>
+<script>
+  const imgs=[...document.querySelectorAll('main figure img')],viewer=document.querySelector('#viewer'),large=document.querySelector('#large');let at=-1,tx=0,ty=0;
+  function show(i){at=(i+imgs.length)%imgs.length;large.src=imgs[at].src;large.alt=imgs[at].alt;viewer.hidden=false;document.body.style.overflow='hidden'}
+  function hide(){viewer.hidden=true;large.src='';document.body.style.overflow=''}
+  imgs.forEach((im,i)=>im.addEventListener('click',()=>show(i)));
+  document.querySelector('.close').onclick=hide;large.onclick=hide;
+  document.querySelector('.prev').onclick=()=>show(at-1);document.querySelector('.next').onclick=()=>show(at+1);
+  document.addEventListener('keydown',e=>{if(viewer.hidden)return;if(e.key==='Escape')hide();if(e.key==='ArrowLeft')show(at-1);if(e.key==='ArrowRight')show(at+1)});
+  viewer.addEventListener('touchstart',e=>{tx=e.touches[0].clientX;ty=e.touches[0].clientY},{passive:true});
+  viewer.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;if(Math.abs(dx)>55&&Math.abs(dx)>Math.abs(dy)*1.25)show(at+(dx<0?1:-1))},{passive:true});
+</script>
+</body>
+</html>
