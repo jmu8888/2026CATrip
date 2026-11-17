@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>沙海十日 · 美国西南游记</title>
+<style>
+:root{--bg:#f8f5ef;--fg:#2a2520;--muted:#81766b;--accent:#b0502a;--rule:#e2d9cb;--card:#fffdf9;--shi:#5a6e8c;--xu:#4f7d5a;--kuang:#8a4f96;--lun:#9a6a1f}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#181614;--fg:#ebe4db;--muted:#a3978b;--accent:#e2895c;--rule:#36312b;--card:#211e1b;--shi:#93a8c8;--xu:#8fbf98;--kuang:#c99ad3;--lun:#d8aa5e}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Noto Serif SC","Songti SC","STSong","SimSun",serif;font-size:18px;line-height:1.95}
+.hero{position:relative;height:92vh;min-height:440px;display:flex;align-items:flex-end;justify-content:center;color:#fff;text-align:center;overflow:hidden;background:#222}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.7)}
+.hero .t{position:relative;padding:0 16px 9vh}
+.hero h1{font-size:clamp(2.4rem,7vw,4.6rem);letter-spacing:.35em;margin:0 0 .3em;padding-left:.35em;font-weight:600;text-shadow:0 2px 24px rgba(0,0,0,.45)}
+.hero p{margin:0;font-size:1rem;letter-spacing:.12em;opacity:.92;text-indent:0}
+.wrap{max-width:780px;margin:0 auto;padding:0 18px}
+.intro{margin-top:64px}
+.route{margin:28px 0 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:14px 0;font-size:.86em;color:var(--muted);line-height:1.8}
+.route b{color:var(--fg);font-weight:600}
+nav.toc{margin:40px 0 0}
+nav.toc h3{font-size:.9em;letter-spacing:.3em;color:var(--muted);font-weight:normal;margin:0 0 10px}
+nav.toc ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:2px 18px;font-size:.88em}
+nav.toc a{color:var(--muted);text-decoration:none}
+nav.toc a:hover{color:var(--accent)}
+nav.toc span{color:var(--accent);margin-right:.4em;font-variant-numeric:tabular-nums}
+.day{margin:110px 0 0;text-align:center;color:var(--accent);letter-spacing:.4em;font-size:.95em}
+.day small{display:block;color:var(--muted);letter-spacing:.15em;font-size:.82em;margin-top:2px}
+section{padding-top:64px}
+.num{color:var(--accent);font-size:.85em;letter-spacing:.2em}
+h2{font-size:1.6em;margin:.1em 0 .1em;letter-spacing:.06em}
+.meta{color:var(--muted);font-size:.85em;margin-bottom:22px}
+p{margin:0 0 1.05em;text-indent:2em}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:14px 18px;margin:0 0 24px;font-size:.86em;line-height:1.85}
+.card b{color:var(--accent);letter-spacing:.2em;margin-right:.6em}
+.card p{text-indent:0;margin:0}
+aside.note{margin:22px 0;padding:4px 0 4px 18px;border-left:3px solid var(--c);font-size:.95em}
+aside.note p{text-indent:0;margin:.3em 0 .5em}
+aside.note .tag{display:inline-block;color:var(--c);font-size:.78em;letter-spacing:.3em;margin-bottom:2px}
+aside.shi{--c:var(--shi)} aside.xu{--c:var(--xu)} aside.kuang{--c:var(--kuang)} aside.lun{--c:var(--lun)}
+aside.kuang p{font-style:italic}
+.g{display:flex;flex-wrap:wrap;gap:6px;margin:26px 0 10px}
+.g a{display:block;flex:calc(var(--r)*100) 1 calc(var(--r)*150px);overflow:hidden;border-radius:3px;background:var(--rule);cursor:zoom-in}
+.g a.w{flex-basis:100%}
+.g img{width:100%;height:auto;display:block;aspect-ratio:var(--r);object-fit:cover;transition:transform .5s ease}
+.g a:hover img{transform:scale(1.025)}
+.g::after{content:"";flex:999 1 0}
+.lb{position:fixed;inset:0;background:rgba(10,9,8,.95);display:none;align-items:center;justify-content:center;z-index:10;user-select:none}
+.lb.on{display:flex}
+.lb img{max-width:96vw;max-height:92vh;object-fit:contain}
+.lb button{position:absolute;top:50%;transform:translateY(-50%);background:none;border:0;color:#fff;font-size:44px;opacity:.6;cursor:pointer;padding:20px}
+.lb button:hover{opacity:1}
+.lb .pv{left:4px}.lb .nx{right:4px}
+.lb .cx{top:24px;right:8px;transform:none;font-size:30px}
+.lb .ct{position:absolute;bottom:12px;left:0;right:0;text-align:center;color:#bbb;font-size:13px;letter-spacing:.1em}
+hr{border:0;border-top:1px solid var(--rule);width:30%;margin:90px auto 0}
+.end{margin:40px 0 120px;text-align:center;color:var(--muted);text-indent:0;letter-spacing:.2em;font-size:.9em}
+@media (max-width:560px){body{font-size:17px}.g{gap:4px}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+<img src="10days/215.jpg" alt="扎布里斯基角金色的丘陵">
+<div class="t">
+<h1>沙海十日</h1>
+<p>旧金山 · 拉斯维加斯 · 红石峡谷 · 死亡谷 · 锡安 · 布莱斯 · 佩吉 · 大峡谷 · 66号公路 · 胡佛大坝</p>
+<p>2026年10月23日 — 11月1日</p>
+</div>
+</header>
+
+<div class="wrap">
+
+<div class="intro">
+<p>这是一趟往“低处”和“旧处”走的旅行。低处，是海平面以下八十六米的恶水盆地；旧处，是大峡谷谷底十七亿年的片岩。我们从旧金山的一间会议厅出发，经拉斯维加斯进入沙漠，在死亡谷住了两晚，向东北穿过犹他的锡安和布莱斯，再南下亚利桑那的佩吉和大峡谷，沿66号公路折回内华达，最后在胡佛大坝前与科罗拉多河告别，回到霓虹里。</p>
+<p>一路开了将近两千公里车，手机和相机加起来拍了几千张，这里挑出两百多张，按拍摄时间排好。文中夹着几种“旁白”：<span style="color:var(--shi)">史</span>，讲来历；<span style="color:var(--xu)">花絮</span>，记路上的小事；<span style="color:var(--lun)">议</span>，是忍不住的议论；<span style="color:var(--kuang)">狂想</span>，是站在石头前面胡思乱想的产物，请勿当真。</p>
+<div class="route">
+<b>10/23–25</b> 旧金山 · 会议 → 飞拉斯维加斯　<b>10/26</b> 红石峡谷 → 死亡谷：金色峡谷、艺术家大道、恶水盆地　<b>10/27</b> 梅斯基特沙丘日出、盐溪、马赛克峡谷、但丁观景台、扎布里斯基角日落　<b>10/28</b> 锡安 · 斯普林代尔　<b>10/29</b> 布莱斯峡谷　<b>10/30</b> 佩吉：马蹄湾、羚羊峡谷 → 大峡谷南缘东段　<b>10/31</b> 金曼66号公路 → 胡佛大坝 → 拉斯维加斯：百乐宫、《O秀》　<b>11/1</b> 雨后的大道 · 归程
+</div>
+</div>
+
+<nav class="toc" aria-label="目录"><h3>目 录</h3><ol>
+<li><a href="#s00"><span>序</span>会议厅与雪岭</a></li>
+<li><a href="#s01"><span>01</span>霓虹初夜</a></li>
+<li><a href="#s02"><span>02</span>红石峡谷</a></li>
+<li><a href="#s03"><span>03</span>熔炉溪与金色峡谷</a></li>
+<li><a href="#s04"><span>04</span>艺术家大道</a></li>
+<li><a href="#s05"><span>05</span>恶水盆地</a></li>
+<li><a href="#s06"><span>06</span>二十骡队</a></li>
+<li><a href="#s07"><span>07</span>沙丘黎明</a></li>
+<li><a href="#s08"><span>08</span>盐溪</a></li>
+<li><a href="#s09"><span>09</span>马赛克峡谷</a></li>
+<li><a href="#s10"><span>10</span>但丁观景台</a></li>
+<li><a href="#s11"><span>11</span>扎布里斯基角</a></li>
+<li><a href="#s12"><span>12</span>告别死亡谷</a></li>
+<li><a href="#s13"><span>13</span>锡安</a></li>
+<li><a href="#s14"><span>14</span>布莱斯</a></li>
+<li><a href="#s15"><span>15</span>马蹄湾</a></li>
+<li><a href="#s16"><span>16</span>羚羊峡谷</a></li>
+<li><a href="#s17"><span>17</span>大峡谷与渡鸦</a></li>
+<li><a href="#s18"><span>18</span>66号公路</a></li>
+<li><a href="#s19"><span>19</span>胡佛大坝</a></li>
+<li><a href="#s20"><span>20</span>万圣夜的大道</a></li>
+<li><a href="#s21"><span>21</span>百乐宫</a></li>
+<li><a href="#s22"><span>22</span>O</a></li>
+<li><a href="#s23"><span>23</span>多出来的一小时</a></li>
+</ol></nav>
+
+<!-- ================= 序 ================= -->
+<section id="s00">
+<div class="num">序</div>
+<h2>会议厅与雪岭</h2>
+<div class="meta">10月23日—25日 · 旧金山 → 拉斯维加斯</div>
+<p>旅程的第一张照片，不是风景，是一间会议厅。蓝色的地毯，白色的穹顶，台上有人讲话，台下坐满了人，角落里两个年轻人守着调音台。这是我们来美国西海岸的“正事”。正事办完，才轮到闲事——而闲事往往比正事记得更久。</p>
+<p>十月二十五日傍晚飞往拉斯维加斯。飞机越过内华达西部，舷窗外一道山岭刚落了今秋的第一场雪，雪线以上一片银亮，阳面镀着夕照，阴面是深蓝。再往东，山就不再有雪，只有一层层褐色的褶皱，像揉皱又摊开的牛皮纸。这是“盆岭省”的典型地貌：大地被东西向拉扯，裂成一条条南北走向的山脉和盆地，像一块被拉开的手风琴。接下来十天，我们就要在这只手风琴的褶缝里穿行。</p>
+<div class="g">
+<a href="10days/220.jpg" style="--r:1.972" data-t=""><img src="10days/220.jpg" loading="lazy" alt="" width="2000" height="1014"></a>
+<a href="10days/000.jpg" style="--r:1.778" data-t="10月25日 17:44"><img src="10days/000.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+</div>
+</section>
+
+<div class="day">第 一 夜<small>10月25日 · 拉斯维加斯</small></div>
+
+<section id="s01">
+<div class="num">01</div>
+<h2>霓虹初夜</h2>
+<div class="meta">10月25日夜 · 拉斯维加斯大道 · 威尼斯人</div>
+<div class="card"><b>名片</b>拉斯维加斯，西班牙语意为“草地”。十九世纪的西班牙商队在这片沙漠里发现了泉水和草地，便这样叫它。1905年铁路公司在此拍卖土地，城市诞生；1931年内华达州赌博合法化，同年胡佛大坝开工，数千名筑坝工人带着工资涌进城——赌城的第一桶金，一半来自牌桌，一半来自那座坝。</div>
+<p>落地已是夜里。大道上灯火通明，威尼斯人的钟楼、总督宫、里亚托桥全被灯光打得金黄，运河里还有贡多拉。这座酒店建在老金沙酒店的旧址上——当年“鼠帮”弗兰克·辛纳屈们夜夜笙歌的地方——1996年老楼被炸掉，三年后，一座“威尼斯”从瓦砾上长了出来。拉斯维加斯就是这样，它没有记忆，或者说，它的记忆是用炸药定期清空的。</p>
+<p>对街一座怪楼让人停住脚步：一把巨大的吉他，琴身两侧镶着弧形玻璃幕墙，琴颈上顶着两台黄色塔吊，在夜空里闪着白光。那是老海市蜃楼酒店的原址——那座曾经每晚定时“喷发”的人造火山，2024年夏天熄了火、关了门，如今原地正在立起一座吉他形状的硬石酒店。一座城市里，连火山都可以拆掉，换成一把吉他。</p>
+<aside class="note lun"><span class="tag">议</span><p>在大多数城市，“仿造”是贬义词。在拉斯维加斯，仿造是一门手艺，甚至是一种诚实：它从不假装自己是真的威尼斯，它只是说，“你想看威尼斯？这里有，而且不用坐飞机，不会被水淹，晚上十二点也开着。”它卖的不是古迹，是“随时可得”。这种诚实，倒比许多假装有历史的仿古街道坦荡得多。</p></aside>
+<div class="g">
+<a href="10days/001.jpg" style="--r:1.778" data-t="10月25日 22:17"><img src="10days/001.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/002.jpg" style="--r:0.562" data-t="10月25日 22:21"><img src="10days/002.jpg" loading="lazy" alt="" width="1125" height="2000"></a>
+</div>
+</section>
+
+<div class="day">第 二 日<small>10月26日 · 红石峡谷 → 死亡谷</small></div>
+
+<section id="s02">
+<div class="num">02</div>
+<h2>红石峡谷</h2>
+<div class="meta">10月26日上午 · 内华达 · 红石峡谷国家保护区</div>
+<div class="card"><b>名片</b>距拉斯维加斯大道仅约25公里。1990年成为内华达州第一个国家保护区。一条单行的风景环线长约21公里，沿途是卡利科山的红白砂岩与西侧拔起的灰色石灰岩峭壁。</div>
+<p>早上往西开，城市像被一把刀齐齐切断，前方公路笔直地伸进戈壁。远处一道长长的山墙横在地平线上：下半截赭红、上半截灰白，像刚刷完颜料还没干透。</p>
+<p>环线公路先经过卡利科山。红色砂岩一团团挤在一起，被风雕出无数凹坑和圆滑的弧线，红里夹着奶白、橙黄、粉紫，像一盒被太阳晒化又重新凝固的冰淇淋。往深处走，背后那道灰色高墙越来越近，山顶的颜色和山脚的颜色截然不同。</p>
+<aside class="note shi"><span class="tag">史 · 石头的倒叙</span><p>这里最奇妙的是一条叫“基石逆冲断层”的地质缝。按常理，老岩层在下、新岩层在上；可在红石峡谷，约五亿年前的灰色海相石灰岩，被六千多万年前的造山运动硬生生推到了约一亿八千万年前的红色沙丘砂岩之上。你看到的那道“上灰下红”的山墙，是一本被翻倒了的书——后面的章节压在了前面的章节底下。那些红砂岩，原本是侏罗纪的一片沙海，和我们后来在锡安、佩吉看到的砂岩是同一个时代的沙子。</p></aside>
+<p>在停车场边的观景台站了很久。远处的彩虹山上，一条砖红色的岩带横穿灰白的山体，像谁在山腰上系了一条围巾。一辆白色小车停在空荡荡的停车场里，显得格外小。拉斯维加斯就在身后二十多公里，可这里一点霓虹的声音都没有，只有风吹过丝兰叶子的沙沙声。</p>
+<aside class="note kuang"><span class="tag">狂想</span><p>如果地质学家也写小说，逆冲断层大概是他们最爱的情节：一个老家伙从地底爬上来，坐在了年轻人的头上，一坐就是几千万年。人类社会里，这种事一般只需要一次选举。</p></aside>
+<div class="g">
+<a href="10days/003.jpg" class="w" style="--r:3.292" data-t="10月26日 08:56"><img src="10days/003.jpg" loading="lazy" alt="" width="3200" height="972"></a>
+<a href="10days/004.jpg" class="w" style="--r:3.372" data-t="10月26日 09:17"><img src="10days/004.jpg" loading="lazy" alt="" width="3200" height="949"></a>
+<a href="10days/005.jpg" class="w" style="--r:4.199" data-t="10月26日 09:22"><img src="10days/005.jpg" loading="lazy" alt="" width="3200" height="762"></a>
+<a href="10days/006.jpg" style="--r:2.239" data-t="10月26日 10:42"><img src="10days/006.jpg" loading="lazy" alt="" width="3200" height="1429"></a>
+</div>
+</section>
+
+<section id="s03">
+<div class="num">03</div>
+<h2>熔炉溪与金色峡谷</h2>
+<div class="meta">10月26日午后 · 死亡谷国家公园</div>
+<div class="card"><b>名片</b>死亡谷国家公园：本土48州面积最大的国家公园，约一万三千七百平方公里，相当于北京市面积的八成多。1913年7月10日，熔炉溪测得56.7℃，至今仍是地球上有记录的最高气温。年均降水不足60毫米。</div>
+<p>翻过山口，经过帕伦普小镇，进入加州。午后到熔炉溪游客中心，门口一尊大角羊的青铜像站在岩石上，盘角卷得像两只螺号。沙漠大角羊是这片土地上真正的主人：它们能几天不喝水，从食物里榨取水分，在几乎垂直的岩壁上如履平地。我们这十天，一只活的都没见着——它们大概正站在某块岩石上，看着我们这些开着空调车、抱着矿泉水的两脚兽，觉得十分好笑。</p>
+<aside class="note shi"><span class="tag">史 · “再见了，死亡谷”</span><p>1849年冬，一支奔向加州金矿的移民队伍为了抄近路，误入这片谷地，困了将近两个月，宰了耕牛、烧了篷车才走出去。传说离开时有人回头说了一句：“再见了，死亡谷。”名字就这样留了下来。其实那一队人里，真正死在谷里的据说只有一个人。死亡谷的名字，比它的实际“战绩”可怕得多——这大概是美国最早的一次成功的品牌营销。而在此之前一千多年，提姆比沙·肖肖尼人早已在这里四季迁徙，冬天住谷底，夏天上山，他们从不觉得这是“死亡”之地，这只是家。</p></aside>
+<p>第一站是金色峡谷。峡谷入口宽阔，两侧是淡黄色的泥岩，被山洪冲得坑坑洼洼。同伴在峡口转身挥手，背后的岩壁有一抹奇怪的灰绿色。越往里越窄，阳光只照得到半条峡谷，一侧耀眼，一侧幽暗，人就在明暗交界处慢慢地走。有一处岩壁向外伸出一块巨大的“屋檐”，从檐下往外望，蓝天被切成一个锐利的三角。</p>
+<p>这些泥岩是几百万年前的湖底沉积。那时这里是一片湖，湖边或许有芦苇和水鸟；如今湖水只剩下颜色——金色，是泥里的铁在说话。</p>
+<div class="g">
+<a href="10days/007.jpg" style="--r:1.778" data-t="10月26日 13:25"><img src="10days/007.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/008.jpg" style="--r:0.667" data-t="10月26日 15:24"><img src="10days/008.jpg" loading="lazy" alt="" width="1334" height="2000"></a>
+<a href="10days/009.jpg" style="--r:1.499" data-t="10月26日 15:25"><img src="10days/009.jpg" loading="lazy" alt="" width="2000" height="1334"></a>
+<a href="10days/010.jpg" style="--r:1.499" data-t="10月26日 15:26"><img src="10days/010.jpg" loading="lazy" alt="" width="2000" height="1334"></a>
+</div>
+</section>
+
+<section id="s04">
+<div class="num">04</div>
+<h2>艺术家大道</h2>
+<div class="meta">10月26日下午 · 死亡谷 · 黑山西麓</div>
+<div class="card"><b>名片</b>艺术家大道：约14公里的单行环线，沿黑山冲积扇起伏蜿蜒，中段的“艺术家调色板”以火山沉积岩中的彩色矿物闻名。</div>
+<p>从峡谷出来，转进艺术家大道。这是一条单行道，在山间起伏蜿蜒，一会儿冲上坡顶，一会儿扎进谷底，像坐一趟慢速过山车。车窗外的山坡像被打翻的调色盘：赭黄、砖红、灰绿、淡紫，一层压着一层。</p>
+<p>这些颜色有化学名字：红、粉、黄来自铁的氧化物，紫色来自锰，那抹最不像沙漠的青绿，来自火山灰蚀变出的绿泥石。大地没有画笔，它用的是时间和氧气。</p>
+<p>在一处空地停车，几辆白色越野车散落在戈壁上，远处的盐滩白得发亮，像一条从天边流过来的冰河。一个人蹲在前景里，对着山坡拍个不停，相机比人还专注。阳光已经斜了，每一道山脊都有清楚的明暗，公路在山脚下画出一道灰色的弧线，弯进远处的山里。</p>
+<aside class="note xu"><span class="tag">花絮</span><p>据说《星球大战》第一部里，R2-D2在塔图因星球孤身穿越峡谷、最后被沙人掳走的那段戏，就拍在这一带。站在路边看，确实很像外星：没有一棵树，没有一点绿，连风都是干的。卢卡斯不用搭景，只要把摄影机架好，让一个铁皮罐头从镜头前滚过去就行了。</p></aside>
+<aside class="note kuang"><span class="tag">狂想</span><p>如果把艺术家调色板的山坡刮下一层，研磨、调油，大概能装满几十万支颜料管。一位画家用“死亡谷原产颜料”画一幅死亡谷，算不算一种自画像？</p></aside>
+<div class="g">
+<a href="10days/011.jpg" style="--r:2.130" data-t="10月26日 15:39"><img src="10days/011.jpg" loading="lazy" alt="" width="2000" height="939"></a>
+<a href="10days/012.jpg" style="--r:1.778" data-t="10月26日 15:41"><img src="10days/012.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/013.jpg" class="w" style="--r:3.187" data-t="10月26日 15:42"><img src="10days/013.jpg" loading="lazy" alt="" width="3200" height="1004"></a>
+<a href="10days/014.jpg" style="--r:2.258" data-t="10月26日 15:45"><img src="10days/014.jpg" loading="lazy" alt="" width="3200" height="1417"></a>
+<a href="10days/015.jpg" class="w" style="--r:2.778" data-t="10月26日 15:45"><img src="10days/015.jpg" loading="lazy" alt="" width="3200" height="1152"></a>
+<a href="10days/016.jpg" class="w" style="--r:2.812" data-t="10月26日 15:47"><img src="10days/016.jpg" loading="lazy" alt="" width="3200" height="1138"></a>
+<a href="10days/017.jpg" style="--r:2.107" data-t="10月26日 15:51"><img src="10days/017.jpg" loading="lazy" alt="" width="2000" height="949"></a>
+<a href="10days/018.jpg" style="--r:2.090" data-t="10月26日 15:57"><img src="10days/018.jpg" loading="lazy" alt="" width="2000" height="957"></a>
+<a href="10days/019.jpg" style="--r:1.927" data-t="10月26日 16:02"><img src="10days/019.jpg" loading="lazy" alt="" width="2000" height="1038"></a>
+<a href="10days/020.jpg" style="--r:2.107" data-t="10月26日 16:10"><img src="10days/020.jpg" loading="lazy" alt="" width="2000" height="949"></a>
+<a href="10days/021.jpg" style="--r:2.146" data-t="10月26日 16:11"><img src="10days/021.jpg" loading="lazy" alt="" width="2000" height="932"></a>
+<a href="10days/022.jpg" style="--r:2.022" data-t="10月26日 16:29"><img src="10days/022.jpg" loading="lazy" alt="" width="2000" height="989"></a>
+</div>
+</section>
+
+<section id="s05">
+<div class="num">05</div>
+<h2>恶水盆地</h2>
+<div class="meta">10月26日傍晚 · 海拔 −86 米 · 北美洲最低点</div>
+<div class="card"><b>名片</b>恶水盆地：海拔−85.5米（−282英尺），北美洲最低点。盐滩面积约200平方公里。有意思的是，美国本土48州的最高点惠特尼峰（4421米）离这里直线距离只有约136公里。</div>
+<p>傍晚到了恶水盆地。木栈道从停车场伸进盐滩，栈道口立着一块小牌子。回头看，黑山陡然从盆地边缘拔起，岩壁粗粝如铁，高处的崖面上挂着一块不起眼的小标志，标出“海平面”该在的位置——你得仰起头，才能看见大海的水平线。</p>
+<aside class="note shi"><span class="tag">史 · 名字的由来</span><p>相传早年有位测绘员牵着骡子来到这里，骡子死活不肯喝路边那汪水。测绘员在地图上写了“bad water”——坏水。其实那水并没有毒，只是太咸，咸得连骡子都看不上。一个地名，就这样记下了一头骡子的品味。</p></aside>
+<p>走上盐滩，脚下咯吱作响。盐壳结成无数个不规则的多边形，边缘隆起，像冻住的浪花，又像大地的指纹，一直铺到天边。这些多边形是盐“长”出来的：地下的盐水被蒸发上来，结晶、膨胀、互相挤压，最后在边界处拱起一道道盐脊。每一场雨都会把它们抹平，然后它们又重新长回来，像一张永远在愈合的皮肤。</p>
+<p>太阳沉向西边的帕纳明特山，光芒四射。盐滩被逆光照得发亮，远处的人影只剩一个个黑点。太阳落下的那一刻，东边的黑山被最后的光点亮——先是金黄，转眼变成火红，像有人在山坡上点了一把火。几分钟后火焰熄灭，山体褪成深褐，盐滩成了淡淡的蓝紫，天边只剩一道橘黄。木栈道弯弯曲曲伸向白色的盆地，栈道尽头站着一个人，一动不动，像在等什么。</p>
+<aside class="note lun"><span class="tag">议</span><p>人们常说“站得高才看得远”。可站在北美最低的地方，我反倒看得特别清楚：头顶是蓝的，脚下是白的，四周是山，中间是你。人站在低处的时候，会自然地仰头——这大概是低处给人的唯一礼物，也是最好的礼物。</p></aside>
+<div class="g">
+<a href="10days/023.jpg" style="--r:2.053" data-t="10月26日 16:40"><img src="10days/023.jpg" loading="lazy" alt="" width="2000" height="974"></a>
+<a href="10days/024.jpg" style="--r:1.499" data-t="10月26日 16:41"><img src="10days/024.jpg" loading="lazy" alt="" width="2000" height="1334"></a>
+<a href="10days/025.jpg" style="--r:2.014" data-t="10月26日 16:46"><img src="10days/025.jpg" loading="lazy" alt="" width="2000" height="993"></a>
+<a href="10days/026.jpg" style="--r:2.024" data-t="10月26日 17:11"><img src="10days/026.jpg" loading="lazy" alt="" width="2000" height="988"></a>
+<a href="10days/027.jpg" style="--r:2.000" data-t="10月26日 17:17"><img src="10days/027.jpg" loading="lazy" alt="" width="2000" height="1000"></a>
+<a href="10days/028.jpg" style="--r:1.802" data-t="10月26日 17:20"><img src="10days/028.jpg" loading="lazy" alt="" width="2000" height="1110"></a>
+<a href="10days/029.jpg" style="--r:1.832" data-t="10月26日 17:24"><img src="10days/029.jpg" loading="lazy" alt="" width="2000" height="1092"></a>
+<a href="10days/030.jpg" class="w" style="--r:2.315" data-t="10月26日 17:26"><img src="10days/030.jpg" loading="lazy" alt="" width="3200" height="1382"></a>
+<a href="10days/031.jpg" style="--r:1.778" data-t="10月26日 17:26"><img src="10days/031.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/032.jpg" style="--r:1.887" data-t="10月26日 17:55"><img src="10days/032.jpg" loading="lazy" alt="" width="2000" height="1060"></a>
+</div>
+</section>
+
+<section id="s06">
+<div class="num">06</div>
+<h2>二十骡队</h2>
+<div class="meta">10月26日夜 · 死亡谷牧场</div>
+<p>夜里住在死亡谷牧场。院子里的柽柳下停着几辆巨大的木头货车，车轮比人还高，铁箍锈迹斑斑，在路灯下投出长长的影子。有人举着手机，用电筒照着车轮拍照。</p>
+<aside class="note shi"><span class="tag">史 · 白色黄金</span><p>死亡谷最早的财富不是金子，是硼砂。1883年到1888年，附近的和谐硼砂工厂用这种大车把硼砂运出谷地：两辆货车加一辆水车串在一起，满载时三十多吨，由二十头骡子（其实是十八头骡子加两匹马）拖拽，穿越约265公里的沙漠，一趟要走十天，抵达莫哈韦的铁路站。五年里，这些车队据说从没出过一次严重事故。后来，“二十骡队”成了硼砂的商标，又成了一档广播剧、一档电视剧的名字——那档《死亡谷岁月》，后来的总统里根还当过主持人。</p></aside>
+<p>月光下的车轮让人想起一个朴素的事实：在这片土地上，每一样东西都是被“拖”出来的。骡子拖出了硼砂，水管拖来了泉水，公路拖来了我们。我们开着空调车一天走完的路，当年是二十头骡子十天的命。</p>
+<aside class="note kuang"><span class="tag">狂想</span><p>如果那二十头骡子能看到今天的游客：从冷藏柜里拿出冰可乐，在35度的傍晚抱怨“好热”——它们大概会集体申请转世做一辆电动车。</p></aside>
+<div class="g">
+<a href="10days/033.jpg" style="--r:1.778" data-t="10月26日 19:29"><img src="10days/033.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/034.jpg" style="--r:1.778" data-t="10月26日 19:30"><img src="10days/034.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+</div>
+</section>
+
+<div class="day">第 三 日<small>10月27日 · 死亡谷</small></div>
+
+<section id="s07">
+<div class="num">07</div>
+<h2>沙丘黎明</h2>
+<div class="meta">10月27日清晨 · 梅斯基特平地沙丘</div>
+<div class="card"><b>名片</b>梅斯基特平地沙丘：死亡谷最容易抵达的沙丘区，最高的沙丘约30米。沙子来自周边山体的风化，被盆地里来回打转的风困在这里，“哪儿也去不了”。名字来自沙丘间生长的牧豆树（mesquite）。</div>
+<p>天没亮就出发。沙丘上已经有了人，三三两两散在沙脊上，像在等一场演出。夜风把沙面梳出一道道细密的波纹，我们的脚印一个接一个，一直延伸向沙丘顶。再仔细看，沙面上还有另一串小小的印子，一路跳着走——是夜里出来觅食的更格卢鼠，还是甲虫？沙丘把每一个夜行者都记录在案，到中午风一吹，档案就清空了。</p>
+<p>七点前后，西边的帕纳明特山先亮了，山脊染成粉红，像一条长丝带悬在灰蓝的沙丘上方。然后太阳从东边的山后探出头，先是穿过灌木枝杈的一个金色光点，接着越升越高。沙丘的脊线一条条亮起来，阴影一道道退下去，牧豆树在沙地上拖出长长的影子。</p>
+<aside class="note xu"><span class="tag">花絮</span><p>在一道沙脊上，我看见有人头朝下、脚朝天地倒立在沙里，旁边的同伴弯着腰狂拍。不知道这是瑜伽，是行为艺术，还是一种向太阳致敬的古老仪式。沙漠里的人，总会做一些在城市里做不出来的事。</p></aside>
+<p>沙丘中间躺着一截枯死的牧豆树干，被晒成银白，扭曲得像一条在沙里游泳的龙。远处两个小小的人影走在大沙丘的阴影边上，和沙丘比起来，渺小得几乎可以忽略不计。</p>
+<aside class="note lun"><span class="tag">议</span><p>沙丘是这个世界上最不讲“永久”的风景。一座山可以几百万年不变，一道沙脊一夜就会挪个地方。可就是这样一个“不长久”的地方，让所有人凌晨五点爬起来，在冷风里一站一个小时。也许人对永恒的东西只是尊敬，对转瞬即逝的东西才真正着迷。</p></aside>
+<div class="g">
+<a href="10days/035.jpg" style="--r:1.778" data-t="10月27日 06:48"><img src="10days/035.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/036.jpg" style="--r:1.778" data-t="10月27日 06:56"><img src="10days/036.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/037.jpg" style="--r:1.778" data-t="10月27日 06:57"><img src="10days/037.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/038.jpg" style="--r:1.778" data-t="10月27日 07:00"><img src="10days/038.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/039.jpg" style="--r:1.778" data-t="10月27日 07:22"><img src="10days/039.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/040.jpg" style="--r:1.778" data-t="10月27日 07:22"><img src="10days/040.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/041.jpg" style="--r:1.778" data-t="10月27日 07:23"><img src="10days/041.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/042.jpg" style="--r:1.778" data-t="10月27日 07:27"><img src="10days/042.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/043.jpg" style="--r:1.778" data-t="10月27日 07:33"><img src="10days/043.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/044.jpg" style="--r:1.778" data-t="10月27日 07:38"><img src="10days/044.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/045.jpg" style="--r:1.778" data-t="10月27日 07:47"><img src="10days/045.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+</div>
+</section>
+
+<section id="s08">
+<div class="num">08</div>
+<h2>盐溪</h2>
+<div class="meta">10月27日上午 · 死亡谷 · 盐溪解说步道</div>
+<div class="card"><b>名片</b>盐溪：死亡谷谷底少有的常年流水。溪中生活着盐溪鳉鱼，全世界只有这条溪里有，体长不过几厘米，能忍受比海水还咸的水和从近乎冰点到四十多度的水温。</div>
+<p>在这片地球上最干的土地上，竟有一条溪。盐溪浅浅地在白色盐壳间蜿蜒，水面映着蓝天，岸边长着一簇簇耐盐的碱草。木栈道沿着溪水伸展，拐过一座灰白色的泥丘，笔直地通向远方的山。</p>
+<p>低头看，干涸的泥地龟裂成一块块小板，中间围着一汪浅水，像一幅抽象画，又像一颗被打碎后重新拼起来的蛋。溪床上的沙泥被流水梳成一道道纹理，阳光下金灿灿的；我的影子投在上面，举着手机，像一个闯进画里的人。</p>
+<aside class="note shi"><span class="tag">史 · 冰河时代的遗民</span><p>两三万年前的冰期，死亡谷是一片深达两百米的大湖，后人以“曼利湖”称之——纪念1849年那位走出谷地求援、又折返回来救人的年轻人威廉·曼利。后来气候变暖，湖水干涸，湖里的鱼大多消失了。只有一小群鳉鱼退守到几条泉溪里，一代一代适应越来越咸、越来越热的水。它们的祖先见过湖，见过冰川，见过猛犸；它们自己，只见过这条窄窄的溪。秋天它们多半躲进泥里休眠，我们趴在栈道边看了半天，一条也没看到。</p></aside>
+<aside class="note kuang"><span class="tag">狂想</span><p>如果鳉鱼有史书，第一页大概写着：“很久很久以前，世界是一片汪洋。”然后一页一页，汪洋变成湖，湖变成溪，溪变成水坑。最后一页写着：“今天，有几个两脚兽趴在木板上，瞪着眼睛找我们。我们躲在泥里，没理他们。”</p></aside>
+<div class="g">
+<a href="10days/046.jpg" style="--r:1.778" data-t="10月27日 10:00"><img src="10days/046.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/047.jpg" style="--r:1.969" data-t="10月27日 10:00"><img src="10days/047.jpg" loading="lazy" alt="" width="2000" height="1016"></a>
+<a href="10days/048.jpg" style="--r:1.778" data-t="10月27日 10:00"><img src="10days/048.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/049.jpg" style="--r:0.667" data-t="10月27日 10:06"><img src="10days/049.jpg" loading="lazy" alt="" width="1334" height="2000"></a>
+<a href="10days/050.jpg" style="--r:1.778" data-t="10月27日 10:08"><img src="10days/050.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/051.jpg" style="--r:2.014" data-t="10月27日 10:12"><img src="10days/051.jpg" loading="lazy" alt="" width="2000" height="993"></a>
+<a href="10days/052.jpg" class="w" style="--r:2.579" data-t="10月27日 10:15"><img src="10days/052.jpg" loading="lazy" alt="" width="3200" height="1241"></a>
+<a href="10days/054.jpg" style="--r:1.778" data-t="10月27日 10:15"><img src="10days/054.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/055.jpg" style="--r:1.778" data-t="10月27日 10:28"><img src="10days/055.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/056.jpg" style="--r:1.778" data-t="10月27日 10:31"><img src="10days/056.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/057.jpg" style="--r:1.778" data-t="10月27日 10:32"><img src="10days/057.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/058.jpg" style="--r:1.778" data-t="10月27日 10:33"><img src="10days/058.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/059.jpg" style="--r:1.778" data-t="10月27日 10:37"><img src="10days/059.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/231.jpg" class="w" style="--r:2.676" data-t=""><img src="10days/231.jpg" loading="lazy" alt="" width="3200" height="1196"></a>
+<a href="10days/233.jpg" style="--r:1.850" data-t=""><img src="10days/233.jpg" loading="lazy" alt="" width="2000" height="1081"></a>
+</div>
+</section>
+
+<section id="s09">
+<div class="num">09</div>
+<h2>马赛克峡谷</h2>
+<div class="meta">10月27日中午 · 死亡谷 · 火炉井附近</div>
+<p>中午走进马赛克峡谷。谷底是被流水磨得光滑如玉的白云岩，灰白、米黄、浅褐的条纹层层叠叠，摸上去冰凉。两侧岩壁里嵌满大大小小的碎石，像一面拼贴画——地质学家管它叫“角砾岩”，峡谷因此得名。</p>
+<p>越往里走，岩壁越高，天空被挤成头顶一条蓝色的缝，白云从缝里飘过，太阳只露出一个白点。脚下的石头滑得像打了蜡，那是一万次山洪、每次带着无数砂粒冲刷出来的光。</p>
+<aside class="note lun"><span class="tag">议</span><p>马赛克峡谷把“时间”这件事做成了可以触摸的东西。你用手抚过那道光滑的石面，就是在抚摸几十万年的流水。我们总说时间“流逝”，好像它是一去不回的；可在这里，时间没有流走，它一层一层堆起来，又一遍一遍磨亮。</p></aside>
+<div class="g">
+<a href="10days/060.jpg" style="--r:1.778" data-t="10月27日 12:50"><img src="10days/060.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/061.jpg" style="--r:0.562" data-t="10月27日 12:51"><img src="10days/061.jpg" loading="lazy" alt="" width="1125" height="2000"></a>
+<a href="10days/062.jpg" style="--r:0.562" data-t="10月27日 12:53"><img src="10days/062.jpg" loading="lazy" alt="" width="1125" height="2000"></a>
+</div>
+</section>
+
+<section id="s10">
+<div class="num">10</div>
+<h2>但丁观景台</h2>
+<div class="meta">10月27日下午 · 海拔 1669 米</div>
+<div class="card"><b>名片</b>但丁观景台：位于黑山之巅，海拔约1669米，脚下即恶水盆地，落差超过1700米。对面帕纳明特山的最高峰望远镜峰海拔3368米。1926年，当地人借但丁《神曲》为它命名——从地狱一路望到天堂。</div>
+<p>下午沿着越来越陡的山路开上但丁观景台。脚下就是昨天走过的恶水盆地，白色的盐滩铺满谷底，像一条凝固的河，从眼前一直流到天边。对面的帕纳明特山在薄雾中层层叠叠，山顶飘着一线白云。</p>
+<p>昨天那些咯吱作响的盐壳、那条木栈道、那个站在栈道尽头的人，从这里看去，全都化成了一抹白。一天之内，从最低处走到最高处再回头看，人对“大”和“小”的感觉被彻底打乱了。</p>
+<aside class="note xu"><span class="tag">花絮</span><p>1977年的《星球大战》里，欧比旺带着卢克站在悬崖边，俯瞰莫斯艾斯利港，说出那句著名的台词：“你再也找不到比这里更卑鄙、更邪恶的贼窝了。”那个悬崖，就是但丁观景台。我们站在同一个位置，看到的却是一片干净得过分的白——卢卡斯后期把太空港合成进了这片盐滩。所以，从某种意义上说，我们脚下是全银河系最有名的反派聚集地。</p></aside>
+<aside class="note kuang"><span class="tag">狂想</span><p>但丁的《神曲》里，地狱是一个漏斗，越往下越黑暗、越寒冷，最底层是冻住的湖。死亡谷正好反过来：越往下越热，最底层是一片白色的盐湖——像是地狱被谁翻了个面，晾在太阳底下晒干了。</p></aside>
+<div class="g">
+<a href="10days/063.jpg" style="--r:2.204" data-t="10月27日 15:09"><img src="10days/063.jpg" loading="lazy" alt="" width="3200" height="1452"></a>
+<a href="10days/234.jpg" style="--r:1.704" data-t=""><img src="10days/234.jpg" loading="lazy" alt="" width="2000" height="1174"></a>
+<a href="10days/235.jpg" style="--r:1.925" data-t=""><img src="10days/235.jpg" loading="lazy" alt="" width="2000" height="1039"></a>
+<a href="10days/236.jpg" style="--r:2.241" data-t=""><img src="10days/236.jpg" loading="lazy" alt="" width="3200" height="1428"></a>
+<a href="10days/237.jpg" class="w" style="--r:2.450" data-t=""><img src="10days/237.jpg" loading="lazy" alt="" width="3200" height="1306"></a>
+</div>
+</section>
+
+<section id="s11">
+<div class="num">11</div>
+<h2>扎布里斯基角</h2>
+<div class="meta">10月27日傍晚 · 死亡谷</div>
+<div class="card"><b>名片</b>扎布里斯基角：以二十世纪初太平洋海岸硼砂公司经理克里斯蒂安·扎布里斯基命名。眼前的“恶地”是五百万至九百万年前的湖泊沉积层，后被抬升、风化成千沟万壑。旁边棱角分明的岩峰叫“曼利灯塔”。</div>
+<p>死亡谷的最后一个黄昏，留给了扎布里斯基角。沿着一条弯弯的坡道爬上观景台，天上的云被风扯成一缕一缕，在夕阳下泛着彩虹般的光晕。</p>
+<p>眼前是一片无边的褶皱。泥岩丘陵被雨水冲刷出无数道沟壑，像大地的掌纹，又像一锅凝固的奶油巧克力：土黄、褐色、深灰、奶白，一层裹着一层。曼利灯塔峰棱角分明地立在一旁，身后是红褐色的崖壁，像一座被遗弃的城堡。</p>
+<p>太阳一点点西沉，光线从金黄变成橘红，丘陵的阴影越拉越长。光从侧面打过来，每一道褶皱都有了自己的明暗，整片土地像在呼吸。远处的停车场被斜阳照成一小块金色，汽车和人影小得像玩具。对面的山脉被最后的阳光点亮，金得发烫。</p>
+<aside class="note xu"><span class="tag">花絮</span><p>观景台下方一块光滑的岩坡上，一对年轻人紧紧相拥，背后是整片金色的恶地和曼利灯塔。所有长焦镜头都悄悄转向了他们。不知道这是求婚，是纪念日，还是只是情不自禁。但那一刻，几十个陌生人同时屏住了呼吸，没有人上前打扰——这大概是死亡谷里最温柔的五分钟。</p></aside>
+<aside class="note shi"><span class="tag">史 · 流行文化里的扎布里斯基</span><p>1970年，意大利导演安东尼奥尼在这里拍了电影《扎布里斯基角》，片中一群年轻人在沙丘间相拥起舞，被当作嬉皮士时代的反叛宣言；1987年，U2乐队的《约书亚树》专辑内页照，也是在这里拍的。一片寸草不生的泥丘，却一次次成为“自由”和“爱”的背景板。也许正因为这里什么都没有，所以什么都可以放进来。</p></aside>
+<aside class="note lun"><span class="tag">议</span><p>恶地（badlands），这个名字起得冤枉。它“恶”在不能耕种、不能放牧、不能住人——也就是说，它“恶”在对人类没有用处。可正是这份“无用”，让它保留了地球最原始的表情。一片土地的价值，不一定要用它能为人做什么来衡量。有时候，它什么都不为人做，就已经是最好的了。</p></aside>
+<div class="g">
+<a href="10days/064.jpg" style="--r:1.778" data-t="10月27日 16:31"><img src="10days/064.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/065.jpg" style="--r:1.778" data-t="10月27日 16:47"><img src="10days/065.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/066.jpg" style="--r:1.778" data-t="10月27日 16:52"><img src="10days/066.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/067.jpg" style="--r:2.022" data-t="10月27日 16:54"><img src="10days/067.jpg" loading="lazy" alt="" width="2000" height="989"></a>
+<a href="10days/068.jpg" style="--r:1.778" data-t="10月27日 16:54"><img src="10days/068.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/069.jpg" style="--r:1.499" data-t="10月27日 16:55"><img src="10days/069.jpg" loading="lazy" alt="" width="2000" height="1334"></a>
+<a href="10days/070.jpg" class="w" style="--r:3.051" data-t="10月27日 16:58"><img src="10days/070.jpg" loading="lazy" alt="" width="3200" height="1049"></a>
+<a href="10days/071.jpg" style="--r:1.778" data-t="10月27日 17:05"><img src="10days/071.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/072.jpg" style="--r:1.499" data-t="10月27日 17:07"><img src="10days/072.jpg" loading="lazy" alt="" width="2000" height="1334"></a>
+<a href="10days/073.jpg" style="--r:1.499" data-t="10月27日 17:19"><img src="10days/073.jpg" loading="lazy" alt="" width="2000" height="1334"></a>
+<a href="10days/075.jpg" style="--r:1.499" data-t="10月27日 17:23"><img src="10days/075.jpg" loading="lazy" alt="" width="2000" height="1334"></a>
+<a href="10days/216.jpg" style="--r:1.511" data-t=""><img src="10days/216.jpg" loading="lazy" alt="" width="1541" height="1020"></a>
+<a href="10days/076.jpg" style="--r:1.907" data-t="10月27日 17:28"><img src="10days/076.jpg" loading="lazy" alt="" width="2000" height="1049"></a>
+<a href="10days/077.jpg" style="--r:1.778" data-t="10月27日 17:31"><img src="10days/077.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/078.jpg" style="--r:1.931" data-t="10月27日 17:39"><img src="10days/078.jpg" loading="lazy" alt="" width="2000" height="1036"></a>
+<a href="10days/079.jpg" style="--r:1.499" data-t="10月27日 17:41"><img src="10days/079.jpg" loading="lazy" alt="" width="2000" height="1334"></a>
+<a href="10days/215.jpg" style="--r:1.873" data-t=""><img src="10days/215.jpg" loading="lazy" alt="" width="2000" height="1068"></a>
+<a href="10days/217.jpg" style="--r:1.800" data-t=""><img src="10days/217.jpg" loading="lazy" alt="" width="1683" height="935"></a>
+<a href="10days/221.jpg" class="w" style="--r:2.508" data-t=""><img src="10days/221.jpg" loading="lazy" alt="" width="3200" height="1276"></a>
+<a href="10days/222.jpg" class="w" style="--r:2.399" data-t=""><img src="10days/222.jpg" loading="lazy" alt="" width="3200" height="1334"></a>
+<a href="10days/238.jpg" class="w" style="--r:2.363" data-t=""><img src="10days/238.jpg" loading="lazy" alt="" width="3200" height="1354"></a>
+<a href="10days/239.jpg" style="--r:2.008" data-t=""><img src="10days/239.jpg" loading="lazy" alt="" width="2000" height="996"></a>
+</div>
+</section>
+
+<div class="day">第 四 日<small>10月28日 · 死亡谷 → 锡安</small></div>
+
+<section id="s12">
+<div class="num">12</div>
+<h2>告别死亡谷</h2>
+<div class="meta">10月28日清晨 · 死亡谷牧场</div>
+<p>最后一个清晨，天边烧起了一片火红的朝霞。牧场门口的石柱门楼在霞光里只剩下黑色的剪影，棕榈树和路灯在风中一动不动。几分钟后霞光散去，天色转成平淡的灰蓝，门楼上“死亡谷牧场”的招牌清晰起来，一辆高尔夫球车停在路边，看上去平常极了。</p>
+<p>美好的东西大多是这样：来时轰轰烈烈，走时一声不吭。</p>
+<div class="g">
+<a href="10days/080.jpg" style="--r:1.778" data-t="10月28日 06:58"><img src="10days/080.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/081.jpg" style="--r:1.778" data-t="10月28日 07:00"><img src="10days/081.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+</div>
+</section>
+
+<section id="s13">
+<div class="num">13</div>
+<h2>锡安</h2>
+<div class="meta">10月28日下午 · 犹他 · 锡安国家公园</div>
+<div class="card"><b>名片</b>锡安国家公园：1909年设为“穆库恩图威普国家纪念地”，1918年改名锡安，1919年升格为犹他州第一座国家公园。峡谷两壁是侏罗纪纳瓦霍砂岩——一片古代沙海的化石，峭壁高达六百多米。2000年起，主峡谷内大部分时间禁止私家车，只能乘接驳巴士。</div>
+<p>告别死亡谷，一路向东北，穿过内华达的一角，进入犹他。景色一点点变化：灰褐色的山变成红色，红色的山上开始出现绿树，河谷里的棉白杨刚刚泛黄。锡安的山是另一种红——更高、更陡、更有分量。</p>
+<p>坐接驳车进峡谷。站牌上写着一串名字：游客中心、人类历史博物馆、峡谷交叉口、族长庭院、锡安山庄、石窟、哭泣岩、大弯、辛那瓦瓦神庙。这份站名表本身就像一首诗，一半是《圣经》，一半是原住民的神话。</p>
+<aside class="note shi"><span class="tag">史 · 族长庭院</span><p>1916年，一位名叫弗雷德里克·费舍尔的卫理公会牧师来到这里，看见三座并肩而立的巨峰，便以《旧约》里的三位族长命名：亚伯拉罕峰、以撒峰、雅各峰。更早的时候，摩门教拓荒者把这条峡谷称作“锡安”——上帝的安息之地。而更更早的南派尤特人，把这里叫作“穆库恩图威普”，意思大约是“笔直的峡谷”。一座山，三层名字，就是一部微缩的美国史：原住民命名它的形状，拓荒者命名他们的信仰，后来者命名他们的经典。</p></aside>
+<p>一路往峡谷深处，在辛那瓦瓦神庙下车——辛那瓦瓦是南派尤特神话里的郊狼神。维尔京河在这里拐了个弯，河水很浅，在卵石间慢慢地流；两侧岩壁越抬越高，一侧被午后的阳光照得金红，一侧沉在冷冷的蓝影里。河边的树刚刚泛黄，一根孤零零的石柱从对面的山脊上探出来，像一个探头张望的人。</p>
+<aside class="note lun"><span class="tag">议</span><p>锡安禁止私家车进入主峡谷，起初很多人不习惯：花了钱、开了车，却不能开进去？可坐上接驳车就明白了——没有了堵车、抢车位和喇叭声，峡谷才重新安静下来。所谓“保护”，有时候不是加什么，而是减什么。减掉一点方便，换回一点安静，这笔账是划算的。</p></aside>
+<div class="g">
+<a href="10days/082.jpg" style="--r:1.778" data-t="10月28日 14:50"><img src="10days/082.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/083.jpg" style="--r:1.808" data-t="10月28日 14:52"><img src="10days/083.jpg" loading="lazy" alt="" width="2000" height="1106"></a>
+<a href="10days/084.jpg" style="--r:0.422" data-t="10月28日 14:56"><img src="10days/084.jpg" loading="lazy" alt="" width="844" height="2000"></a>
+<a href="10days/085.jpg" style="--r:1.778" data-t="10月28日 15:18"><img src="10days/085.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/086.jpg" style="--r:1.778" data-t="10月28日 15:54"><img src="10days/086.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+</div>
+</section>
+
+<section id="s13b">
+<div class="num">13 · 附</div>
+<h2>无头骑士</h2>
+<div class="meta">10月28日傍晚 · 斯普林代尔小镇</div>
+<p>傍晚回到公园门口的小镇斯普林代尔。夕阳把小镇背后的整面山墙烧成橘红，层层叠叠的岩壁像一排着火的城堡。停车场边上，一位无头骑士骑着一匹用废铁焊成的战马，腾空跃起，手里高举一颗南瓜头和一盏马灯——万圣节快到了。</p>
+<p>背景是两亿年前的沙丘化石，前景是一个十九世纪的美国鬼故事，再前面是几辆停得歪歪扭扭的SUV。这种荒诞的并置，大概就是美国西部最真实的样子。</p>
+<aside class="note kuang"><span class="tag">狂想</span><p>无头骑士在传说里是一位丢了脑袋的骑兵，每晚出来寻找自己的头。如果他真的骑着这匹铁马跑进锡安峡谷，大概会在族长庭院前停下来，向三位族长打听：“请问，你们见过我的头吗？”族长们沉默了两亿年，大概也不会为他破例。</p></aside>
+<div class="g">
+<a href="10days/087.jpg" style="--r:1.695" data-t="10月28日 18:26"><img src="10days/087.jpg" loading="lazy" alt="" width="2000" height="1180"></a>
+</div>
+</section>
+
+<div class="day">第 五 日<small>10月29日 · 布莱斯峡谷</small></div>
+
+<section id="s14">
+<div class="num">14</div>
+<h2>布莱斯</h2>
+<div class="meta">10月29日 · 犹他 · 布莱斯峡谷国家公园 · 海拔 2400–2700 米</div>
+<div class="card"><b>名片</b>布莱斯峡谷其实不是峡谷，而是庞索冈特高原东缘被侵蚀出的一连串“圆形剧场”。成千上万根石柱（hoodoo）由克拉伦组的石灰岩与泥岩构成。这里每年有两百多天经历“白天融化、夜里冻结”，冰楔把岩石一点点撬开——这是世界上石柱最密集的地方。1928年设为国家公园。</div>
+<p>上午到了布莱斯。走到崖边往下一看，人就愣住了：成千上万根岩柱从谷底立起来，橘的、粉的、奶白的，密密麻麻，像一支被施了定身法的军队。每一根都是一节一节的，像叠起来的算盘珠子，顶上往往压着一块颜色更深、更硬的石帽——正是这顶帽子，替下面的身体挡住了雨水。</p>
+<aside class="note shi"><span class="tag">史 · “丢一头牛的鬼地方”</span><p>1870年代，摩门教拓荒者埃比尼泽·布莱斯在这里的谷底放牧。有人问他对这地方的评价，他留下了一句著名的抱怨：“这真是个丢一头牛的鬼地方。”一句抱怨，换来了一座国家公园以他命名。而南派尤特人的传说里，这些石柱原本是“传说之民”——一群作恶的动物和人，被郊狼施法变成了石头，至今还穿着彩色的衣服，排着队站在那里。</p></aside>
+<p>沿着纳瓦霍环线往下走，小路在峭壁间折来折去，人在石柱之间走，像走进一座迷宫。雷神之锤孤零零地立在崖边：一根细长的石柱，顶上顶着一块方方正正的大石头，摇摇欲坠，却已经这样站了不知多少年。</p>
+<p>天一直阴着，云压得很低，偶尔裂开一道口子。在灵感角的崖边，一棵早已死去的松树站在那里，根全露在外面，像一只巨大的手牢牢抓住地面——它脚下的土一年年被冻融剥走，它一年年往下伸根，直到再也伸不动。远处是一片白色的台地，在乌云下闪着冷光。</p>
+<p>到了傍晚，天色彻底暗下来。乌云像一口锅盖扣在高原上，只在西边留了一道缝。一束斜阳从缝里漏进来，扫过谷地，被照到的岩柱一根根亮起来，像有人在黑暗的舞台上打了一束追光；远处的白色悬崖被点亮成一条金边。光移走了，石柱又一根根暗下去。整个过程不过几分钟，崖边所有人都没说话。</p>
+<aside class="note lun"><span class="tag">议</span><p>布莱斯的美，本质上是一种“毁灭”的美。每一根石柱都在倒下的路上：冰楔每年把崖边往后推几厘米，新的石柱从崖壁里被“雕”出来，老的石柱倒下、化成沙子。我们看到的不是一个完成了的作品，而是一个正在进行中的拆迁现场。只不过它拆得足够慢，慢到我们以为它是永恒的。</p></aside>
+<aside class="note kuang"><span class="tag">狂想</span><p>如果把布莱斯的时间按一亿倍加速，我们会看到什么？大概是一锅正在沸腾的红色粥：石柱像气泡一样从崖壁里冒出来，摇晃、站立、倒下、融化，然后下一批又冒出来。而那棵露根的老松树，会像一只拼命扒着锅沿的手。</p></aside>
+<div class="g">
+<a href="10days/088.jpg" style="--r:1.499" data-t="10月29日 11:22"><img src="10days/088.jpg" loading="lazy" alt="" width="2000" height="1334"></a>
+<a href="10days/089.jpg" style="--r:1.499" data-t="10月29日 11:44"><img src="10days/089.jpg" loading="lazy" alt="" width="2000" height="1334"></a>
+<a href="10days/090.jpg" style="--r:1.499" data-t="10月29日 11:52"><img src="10days/090.jpg" loading="lazy" alt="" width="2000" height="1334"></a>
+<a href="10days/241.jpg" style="--r:1.499" data-t=""><img src="10days/241.jpg" loading="lazy" alt="" width="2000" height="1334"></a>
+<a href="10days/091.jpg" style="--r:1.778" data-t="10月29日 12:22"><img src="10days/091.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/092.jpg" style="--r:1.778" data-t="10月29日 12:46"><img src="10days/092.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/093.jpg" style="--r:1.778" data-t="10月29日 12:56"><img src="10days/093.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/094.jpg" style="--r:1.499" data-t="10月29日 13:05"><img src="10days/094.jpg" loading="lazy" alt="" width="2000" height="1334"></a>
+<a href="10days/223.jpg" style="--r:1.555" data-t=""><img src="10days/223.jpg" loading="lazy" alt="" width="2000" height="1286"></a>
+<a href="10days/224.jpg" class="w" style="--r:2.712" data-t=""><img src="10days/224.jpg" loading="lazy" alt="" width="3200" height="1180"></a>
+<a href="10days/225.jpg" style="--r:2.282" data-t=""><img src="10days/225.jpg" loading="lazy" alt="" width="3200" height="1402"></a>
+<a href="10days/095.jpg" style="--r:1.778" data-t="10月29日 13:59"><img src="10days/095.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/096.jpg" style="--r:1.778" data-t="10月29日 14:00"><img src="10days/096.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/097.jpg" style="--r:1.778" data-t="10月29日 14:37"><img src="10days/097.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/098.jpg" style="--r:1.778" data-t="10月29日 14:37"><img src="10days/098.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/099.jpg" style="--r:1.778" data-t="10月29日 15:03"><img src="10days/099.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/100.jpg" class="w" style="--r:3.262" data-t="10月29日 17:26"><img src="10days/100.jpg" loading="lazy" alt="" width="3200" height="981"></a>
+<a href="10days/242.jpg" style="--r:1.499" data-t=""><img src="10days/242.jpg" loading="lazy" alt="" width="2000" height="1334"></a>
+<a href="10days/226.jpg" style="--r:1.944" data-t=""><img src="10days/226.jpg" loading="lazy" alt="" width="2000" height="1029"></a>
+<a href="10days/227.jpg" style="--r:2.073" data-t=""><img src="10days/227.jpg" loading="lazy" alt="" width="2000" height="965"></a>
+<a href="10days/243.jpg" style="--r:1.927" data-t=""><img src="10days/243.jpg" loading="lazy" alt="" width="2000" height="1038"></a>
+<a href="10days/218.jpg" style="--r:1.778" data-t=""><img src="10days/218.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/228.jpg" style="--r:2.153" data-t=""><img src="10days/228.jpg" loading="lazy" alt="" width="2000" height="929"></a>
+</div>
+</section>
+
+<div class="day">第 六 日<small>10月30日 · 佩吉 → 大峡谷</small></div>
+
+<section id="s15">
+<div class="num">15</div>
+<h2>马蹄湾</h2>
+<div class="meta">10月30日上午 · 亚利桑那 · 佩吉</div>
+<div class="card"><b>名片</b>佩吉：1957年为修建格伦峡谷大坝而建的工人营地，以垦务局局长约翰·佩吉命名。格伦峡谷大桥1959年建成，钢拱横跨峡谷，桥面距河面约213米。马蹄湾：科罗拉多河在纳瓦霍砂岩中切出的一个约270度的嵌入式曲流，崖顶距河面约300米。</div>
+<p>早上出佩吉，路边的砂岩台地上躺着一串圆滚滚的红石头，最上面一块悬空探出，像一只伸长脖子的乌龟。同伴爬上去，站在乌龟头上，张开双臂。背后的天空是铅灰色的，台地上的砂岩被风吹出一层层波浪纹。</p>
+<p>格伦峡谷大桥横在峡谷上空，银色的钢拱，背后是一座金字塔一样的红色石丘。这座桥和这座城都是为了那座坝而生的——没有大坝，就没有佩吉；没有佩吉，也就没有今天每年几百万来看马蹄湾和羚羊峡谷的游客。一座水利工程，意外地造出了一个旅游城市。</p>
+<p>马蹄湾边风很大。探头往下，墨绿色的科罗拉多河在三百米下绕出一个完美的弯，把一座红色的岩丘围在中间。河边的岸是绿的，岩是红的，水是墨色的，三种颜色干干净净。几艘小艇在河面上划出白色的尾迹，像在水上签名。同伴站在崖边一块突出的岩石上，身后就是那道巨大的弯——这张照片拍得我心惊胆战。</p>
+<aside class="note shi"><span class="tag">史</span><p>马蹄湾这个“弯”，是河流的一个“固执”。几百万年前，这里的地面还是平的，科罗拉多河在平地上随意蜿蜒；后来科罗拉多高原整体抬升，河流没有改道，而是保持着原来的弯曲，一路往下切——就像一把刀沿着画好的曲线一直往下刻。于是平地上的一道弯，变成了三百米深的一道弯。地质学家管这叫“嵌入式曲流”，我管它叫“不忘初心”。</p></aside>
+<aside class="note lun"><span class="tag">议</span><p>十几年前，马蹄湾还只是一个没什么人知道的路边景点，没有护栏，没有停车场。后来一张张照片在社交网络上疯传，游客从每年几千人涨到几百万人。现在有了收费停车场、修整好的步道和一段护栏。一个景点被“看见”的过程，也是它被“改变”的过程。我们是来看它的人，也是改变它的人。</p></aside>
+<div class="g">
+<a href="10days/101.jpg" style="--r:1.778" data-t="10月30日 09:44"><img src="10days/101.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/102.jpg" style="--r:1.778" data-t="10月30日 10:13"><img src="10days/102.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/103.jpg" style="--r:1.778" data-t="10月30日 10:39"><img src="10days/103.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/104.jpg" style="--r:1.778" data-t="10月30日 10:41"><img src="10days/104.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/105.jpg" style="--r:1.778" data-t="10月30日 10:43"><img src="10days/105.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/106.jpg" style="--r:0.750" data-t="10月30日 10:47"><img src="10days/106.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/229.jpg" style="--r:1.526" data-t=""><img src="10days/229.jpg" loading="lazy" alt="" width="2000" height="1311"></a>
+<a href="10days/230.jpg" style="--r:1.091" data-t=""><img src="10days/230.jpg" loading="lazy" alt="" width="2000" height="1834"></a>
+</div>
+</section>
+
+<section id="s16">
+<div class="num">16</div>
+<h2>羚羊峡谷</h2>
+<div class="meta">10月30日中午 · 纳瓦霍族保留地 · 上羚羊峡谷</div>
+<div class="card"><b>名片</b>羚羊峡谷位于纳瓦霍族保留地内，是由山洪在纳瓦霍砂岩中冲刷出的狭缝峡谷。上羚羊峡谷纳瓦霍语叫“Tsé bighánílíní”，意为“水流过岩石的地方”。只能跟随纳瓦霍向导进入。</div>
+<p>去上羚羊峡谷，要先坐纳瓦霍人的四驱卡车，在一条宽阔的沙河床里颠簸十几分钟。从高处看，几辆白色卡车停在橘红色的沙地上，排成一列，像几颗被丢进沙盘的药丸。峡谷入口毫不起眼——一道岩壁上的裂缝，旁边几块被风化成蜂窝状的红石头。</p>
+<p>走进裂缝，外面的世界就被关掉了。光从头顶的窄缝落下来，砂岩壁被水和风雕成一层层波浪：橘红、紫褐、象牙白，随着脚步不断变幻。有的地方像火焰，有的像翅膀，有的像一匹正在飘落的丝绸。头顶的缝隙偶尔漏进一线天光，打在岩壁上，白得发亮。向导指着一处岩壁说：“看，这是一颗心。”大家都举起手机，换了个角度，那颗心就变成了一只鹰。</p>
+<aside class="note shi"><span class="tag">史 · 美丽的代价</span><p>羚羊峡谷的每一道曲线，都是山洪的作品。1997年8月，一场远在十几公里外的暴雨引发山洪，冲进了附近的下羚羊峡谷，十一名游客遇难。从那以后，进入峡谷必须由持证的纳瓦霍向导带领，向导会时刻关注天气。那天天空一直阴沉，我心里暗暗打鼓，好在只是阴天。最美的地方，往往也是最危险的地方——因为让它变美的那股力量，从来没有离开。</p></aside>
+<aside class="note xu"><span class="tag">花絮 · 手机里的时差</span><p>在佩吉，手机的时间总是莫名其妙地跳来跳去。原来亚利桑那州不实行夏令时，而纳瓦霍族保留地实行。于是从佩吉城里开到羚羊峡谷，手机时间会突然快一个小时；出来又跳回去。一块不到几十公里的地方，同时活在两个时间里。纳瓦霍人有自己的土地、自己的法律，也有自己的时间。</p></aside>
+<aside class="note kuang"><span class="tag">狂想</span><p>如果把羚羊峡谷倒过来，灌满水，冻成冰，再把砂岩剥掉，我们会得到一座无比复杂的冰雕——那就是一次山洪的“形状”。整个峡谷，其实是一万次洪水留下的模具。我们走进去，就是走进了水的记忆里。</p></aside>
+<div class="g">
+<a href="10days/108.jpg" style="--r:0.750" data-t="10月30日 11:47"><img src="10days/108.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/111.jpg" style="--r:0.750" data-t="10月30日 12:10"><img src="10days/111.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/113.jpg" style="--r:1.333" data-t="10月30日 12:11"><img src="10days/113.jpg" loading="lazy" alt="" width="2000" height="1500"></a>
+<a href="10days/114.jpg" style="--r:1.778" data-t="10月30日 12:46"><img src="10days/114.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/116.jpg" style="--r:0.750" data-t="10月30日 13:12"><img src="10days/116.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/118.jpg" style="--r:0.750" data-t="10月30日 13:20"><img src="10days/118.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/120.jpg" style="--r:1.778" data-t="10月30日 13:41"><img src="10days/120.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+</div>
+</section>
+
+<section id="s17">
+<div class="num">17</div>
+<h2>大峡谷与渡鸦</h2>
+<div class="meta">10月30日下午 · 大峡谷国家公园南缘东段 · 沙漠观景点 — 大观景点</div>
+<div class="card"><b>名片</b>大峡谷：全长约446公里，最宽处约29公里，最深处约1.8公里。谷底的毗湿奴片岩约十七亿年。1919年设为国家公园。沙漠观景点的瞭望塔由建筑师玛丽·科尔特设计，1932年建成。</div>
+<p>午后从东口进入大峡谷，第一站是沙漠观景点。科罗拉多河在谷底蜿蜒成一条细细的白线，在紫褐色的谷地里拐了几个弯，层层岩壁一直铺到天边：红、褐、灰、紫，每一层都是几百万年。崖边长着灌木和低矮的刺柏，叶子已经泛红。</p>
+<aside class="note shi"><span class="tag">史</span><p>1869年，独臂的南北战争老兵约翰·韦斯利·鲍威尔带着九个人、四条木船，第一次顺着科罗拉多河漂过了整个大峡谷，途中三人离队，在岸上遇害。1903年，老罗斯福总统站在南缘说：“就让它保持原样吧。你无法改善它。”这大概是美国总统说过的最谦虚的一句话。</p></aside>
+<p>在下一个观景点，崖边的石头上站着两只渡鸦，挨得很近，一只侧着头，像在对另一只说悄悄话。它们羽毛乌黑发亮，对身后几百米的深渊毫不在意，对我们这些举着手机的人也毫不在意。忽然一只振翅飞起，翅膀几乎擦过镜头，羽毛一根根张开，像一把黑色的扇子。</p>
+<aside class="note xu"><span class="tag">花絮 · 一只坐自行车的渡鸦</span><p>到了大观景点，停车场边一棵树下，一只渡鸦大大咧咧地站在一辆房车后面挂着的自行车座上，左顾右盼，旁边就是“禁止停车”的牌子。它显然是在“停车”，而且停得理直气壮。渡鸦是鸟类里数一数二聪明的，在大峡谷，它们早就学会了拉开游客背包的拉链、掀开冰盒的盖子。我们和它对视了几秒，它的眼神分明在说：“有吃的吗？没有就别挡光。”</p></aside>
+<p>傍晚，云层压过来，阳光从云缝里一束一束地漏下，在峡谷里打出一块块光斑：一座孤峰被照亮了，旁边的一座还在阴影里；云一动，光斑就跟着移，像有人在峡谷里慢慢地翻一本书。站在那里，人说不出什么话，也不需要说。</p>
+<aside class="note lun"><span class="tag">议</span><p>大峡谷是一个关于“尺度”的地方。站在边上，人的眼睛不习惯：你看到对岸，却判断不出它有多远；你看到谷底的河，却不相信它有一百米宽。人的感官是为了在草原上追羚羊进化出来的，处理不了十七亿年和一点八公里。所以在大峡谷，人会沉默——不是因为感动，而是因为大脑在重新校准。</p></aside>
+<aside class="note kuang"><span class="tag">狂想</span><p>如果大峡谷的每一层岩石都是一页书，那么从崖顶到谷底，是一本厚达十七亿年的书。人类全部的历史，大约只占最上面那页纸上的一粒灰尘。而那两只渡鸦，正站在这粒灰尘上，讨论晚饭吃什么。</p></aside>
+<div class="g">
+<a href="10days/122.jpg" style="--r:1.778" data-t="10月30日 15:34"><img src="10days/122.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/124.jpg" style="--r:1.778" data-t="10月30日 15:35"><img src="10days/124.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/125.jpg" style="--r:1.778" data-t="10月30日 15:40"><img src="10days/125.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/126.jpg" style="--r:1.333" data-t="10月30日 16:01"><img src="10days/126.jpg" loading="lazy" alt="" width="2000" height="1500"></a>
+<a href="10days/128.jpg" style="--r:1.333" data-t="10月30日 16:02"><img src="10days/128.jpg" loading="lazy" alt="" width="2000" height="1500"></a>
+<a href="10days/130.jpg" style="--r:1.778" data-t="10月30日 16:23"><img src="10days/130.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/132.jpg" style="--r:1.333" data-t="10月30日 16:45"><img src="10days/132.jpg" loading="lazy" alt="" width="2000" height="1500"></a>
+<a href="10days/133.jpg" style="--r:1.778" data-t="10月30日 17:01"><img src="10days/133.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+</div>
+</section>
+
+<div class="day">第 七 日<small>10月31日 · 金曼 → 胡佛大坝 → 拉斯维加斯</small></div>
+
+<section id="s18">
+<div class="num">18</div>
+<h2>66号公路</h2>
+<div class="meta">10月31日上午 · 亚利桑那 · 金曼</div>
+<div class="card"><b>名片</b>66号公路：1926年建成，从芝加哥到洛杉矶，全长约3940公里，被斯坦贝克在《愤怒的葡萄》里称为“母亲之路”。1985年正式从美国公路系统中除名，后被州际公路取代。金曼是亚利桑那段上保存最完整的小镇之一，游客中心设在一座二十世纪初建成的老发电厂里。</div>
+<p>往西开，到了金曼。这里的天空出奇地好，白云像刚洗过的棉被一样一团团堆在天上。路口停着一辆黑白相间的老警车，镀铬的大嘴保险杠咧着，像在笑。对面是66号公路的盾形路牌，和一座顶着金色圆球的老式招牌：“金曼游客中心·博物馆·礼品店”。</p>
+<p>薄荷绿配玫红的Mr. D’z餐厅是这条街的明星：门口的招牌上一辆粉色老爷车冲出汉堡和薯条，屋檐下撑着红伞，墙上画着骑摩托的人。旧货店前停着一辆大红色的老吉普，车头圆眼睛圆鼻子，可爱得像一只玩具；隔壁“Duke’s”的老墙上，“Packard”字样已经褪了色。一座复古加油站里停着一辆墨蓝色的老式轿车，后面卧着一辆银色的清风房车，红色的老油泵站在一旁，像一个退休了还坚持上岗的老门卫。</p>
+<aside class="note shi"><span class="tag">史 · 母亲之路</span><p>大萧条和沙尘暴年代，成千上万的俄克拉何马农民把全部家当绑在车顶上，沿着66号公路往西逃，去加州寻找活路——这就是《愤怒的葡萄》里乔德一家走的路。战后，它又变成了中产阶级开着新车度假的“自由之路”，沿途长出了汽车旅馆、霓虹招牌和汉堡店。1950年代修州际公路，一条条小镇被“绕过去”，一夜之间没了生意。今天的66号公路，是一条靠怀旧活着的路。</p></aside>
+<aside class="note lun"><span class="tag">议</span><p>66号公路最有意思的地方在于：它被淘汰以后，反而比它“有用”的时候更有名。人们不远万里来这里，看的不是一条路，而是一种“慢”——一种还有时间在路边停下来、喝一杯奶昔、跟加油站老板聊两句的生活。今天我们怀念66号公路，就像将来的人会怀念我们今天嫌弃的某样东西一样。怀旧，是对效率的一种温柔的报复。</p></aside>
+<div class="g">
+<a href="10days/134.jpg" style="--r:1.778" data-t="10月31日 10:22"><img src="10days/134.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/135.jpg" style="--r:1.778" data-t="10月31日 10:23"><img src="10days/135.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/136.jpg" style="--r:1.778" data-t="10月31日 10:23"><img src="10days/136.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/137.jpg" style="--r:1.778" data-t="10月31日 10:25"><img src="10days/137.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/138.jpg" style="--r:1.778" data-t="10月31日 10:27"><img src="10days/138.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/139.jpg" style="--r:1.778" data-t="10月31日 10:28"><img src="10days/139.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/140.jpg" style="--r:0.750" data-t="10月31日 10:32"><img src="10days/140.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/141.jpg" style="--r:1.778" data-t="10月31日 10:36"><img src="10days/141.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/142.jpg" style="--r:1.778" data-t="10月31日 11:02"><img src="10days/142.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+</div>
+<p>离开金曼往北，路过多兰斯普林斯小镇，路边一个白色的大储罐上写着镇名，背后是一大片浮云。再往前，一片风电场散落在戈壁上，几十座白色风车在乌云下缓缓转动。一百年前，人们在这片土地上找金子、找硼砂、拦河发电；今天，人们开始收集风。</p>
+<div class="g">
+<a href="10days/143.jpg" style="--r:1.778" data-t="10月31日 11:57"><img src="10days/143.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/144.jpg" style="--r:1.778" data-t="10月31日 12:14"><img src="10days/144.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+</div>
+</section>
+
+<section id="s19">
+<div class="num">19</div>
+<h2>胡佛大坝</h2>
+<div class="meta">10月31日中午 · 内华达—亚利桑那交界 · 黑峡谷</div>
+<div class="card"><b>名片</b>胡佛大坝：1931年开工，1935年9月30日由罗斯福总统主持落成，1936年完工。坝高221米，浇筑混凝土约250万立方米。大坝蓄水形成的米德湖，是美国库容最大的水库。官方记录的施工死亡人数为96人。坝体为装饰艺术风格，由建筑师戈登·考夫曼设计外观。</div>
+<p>中午到了胡佛大坝。巨大的混凝土弧墙卡在黑褐色的峡谷之间，四座取水塔像四根石柱立在米德湖里。湖岸上有一圈明显的白色“浴缸环”——那是水位下降留下的痕迹，宽得让人心惊。湖水是深蓝色的，白环以上是红褐色的山，白环以下是水，像一只被喝掉了一大半的杯子。</p>
+<p>大坝的取水塔顶上各有一面钟。一面写着“内华达时间”，一面写着“亚利桑那时间”。我们去的那天，两面钟走得一模一样——十月底，内华达还在夏令时，正好与不实行夏令时的亚利桑那对齐。可就在第二天，内华达的时钟拨回一小时，两面钟就会分道扬镳。一座坝，同时站在两个州、两个时间里。</p>
+<aside class="note shi"><span class="tag">史 · 共和国的翅膀</span><p>坝顶的内华达一侧，立着两座高达九米的青铜雕像《共和国的飞翼》，雕塑家奥斯卡·汉森的作品，坐在黑色花岗岩基座上，双翼笔直地刺向天空。脚下的水磨石地面上，汉森刻了一幅星图，按照星体的位置“记录”了大坝落成的那一天——他的设想是，即使几万年后人类文明消失，未来的天文学家也能根据星图推算出这座坝的建成日期。</p><p>至于那个流传很广的说法——“有工人被浇进了混凝土里”——其实是个谣言。混凝土是一块块分层浇筑的，每层只有一米多厚，掉进去的人是可以被救出来的。真正夺走工人生命的，是高温、落石、溺水和爆破。</p></aside>
+<p>不远处，迈克·奥卡拉汉—帕特·蒂尔曼纪念大桥的混凝土拱横跨峡谷，桥下是成排的电塔和高压线，钢铁的骨架密密麻麻地爬满山坡，把大坝发出的电送往洛杉矶、拉斯维加斯和凤凰城。一侧的岩壁上，几棵棕榈树歪歪地长着，旁边是一道陡峭的钢梯，直上山顶。</p>
+<aside class="note lun"><span class="tag">议</span><p>一百年前，人们用这堵墙“驯服”了科罗拉多河：止住了洪水，浇灌了帝王谷，点亮了洛杉矶。那是人类对自然最自信的年代。一百年后，湖岸上那圈白色的“浴缸环”，像是河流写给人类的一张便条：“我不是取之不尽的。”这几天我们一路看到的，都是水的作品——羚羊峡谷、马蹄湾、大峡谷，全是这条河雕出来的。而在这里，我们看到了人类反过来“雕”这条河的结果。水雕石头用了几百万年，人雕水只用了五年，可后果，要用几百年来还。</p></aside>
+<aside class="note kuang"><span class="tag">狂想</span><p>如果一万年后，真有外星考古学家来到这里，在一片荒漠中发现一堵巨墙和一幅星图，他们会怎么想？也许他们会以为这是一座神庙，供奉的神叫“电”，而那四座取水塔，是神庙的四根图腾柱。他们会写论文说：二十一世纪的人类，用整条河流献祭，换来了夜里不灭的光。——仔细想想，这样说好像也没错。</p></aside>
+<div class="g">
+<a href="10days/145.jpg" class="w" style="--r:3.098" data-t="10月31日 12:58"><img src="10days/145.jpg" loading="lazy" alt="" width="3200" height="1033"></a>
+<a href="10days/232.jpg" class="w" style="--r:3.636" data-t=""><img src="10days/232.jpg" loading="lazy" alt="" width="3200" height="880"></a>
+<a href="10days/146.jpg" style="--r:1.778" data-t="10月31日 13:02"><img src="10days/146.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/147.jpg" style="--r:1.778" data-t="10月31日 13:31"><img src="10days/147.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/148.jpg" style="--r:1.778" data-t="10月31日 13:33"><img src="10days/148.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/149.jpg" style="--r:1.000" data-t="10月31日 13:34"><img src="10days/149.jpg" loading="lazy" alt="" width="2000" height="2000"></a>
+<a href="10days/150.jpg" style="--r:1.778" data-t="10月31日 13:35"><img src="10days/150.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/151.jpg" style="--r:1.778" data-t="10月31日 14:13"><img src="10days/151.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/152.jpg" style="--r:0.540" data-t="10月31日 14:16"><img src="10days/152.jpg" loading="lazy" alt="" width="1080" height="2000"></a>
+<a href="10days/153.jpg" style="--r:1.778" data-t="10月31日 14:21"><img src="10days/153.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+</div>
+</section>
+
+<section id="s20">
+<div class="num">20</div>
+<h2>万圣夜的大道</h2>
+<div class="meta">10月31日傍晚 · 拉斯维加斯大道</div>
+<p>傍晚回到拉斯维加斯，正赶上万圣节。天色忽然变了，铅灰色的云从西边压过来，大道上的霓虹在阴天里显得格外鲜艳。凯撒宫的柱廊下站着希腊式的白色雕像，海马在喷泉里扬起前蹄；对面，百乐宫的米黄色大楼横在乌云下，像一艘停泊的巨轮。火烈鸟酒店门口那朵巨大的粉红色“羽毛花”开得正盛，旁边的广告牌上写着：“YOUR BOOKS SHOULD...”后半句被楼挡住了。巴黎酒店的铁塔、热气球、过街天桥和巨型广告屏挤在一起，像有人把全世界的地标塞进了一只盒子。</p>
+<aside class="note shi"><span class="tag">史 · 火烈鸟</span><p>火烈鸟酒店是大道上现存最老的酒店之一，1946年由黑帮分子“臭虫”西格尔主持开业。他当时的设想是在沙漠里建一座“有品味”的赌场，结果严重超支，开业惨淡，第二年他在比佛利山庄的家中被枪杀。拉斯维加斯的现代史，就从这样一个荒唐又血腥的故事开始。今天的火烈鸟门口，只剩一朵天真的粉红色花。</p></aside>
+<div class="g">
+<a href="10days/154.jpg" style="--r:1.778" data-t="10月31日 17:45"><img src="10days/154.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/155.jpg" style="--r:1.778" data-t="10月31日 17:46"><img src="10days/155.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/156.jpg" style="--r:1.778" data-t="10月31日 17:47"><img src="10days/156.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/157.jpg" style="--r:0.831" data-t="10月31日 17:48"><img src="10days/157.jpg" loading="lazy" alt="" width="1661" height="2000"></a>
+<a href="10days/158.jpg" style="--r:1.778" data-t="10月31日 17:49"><img src="10days/158.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/159.jpg" style="--r:1.778" data-t="10月31日 17:51"><img src="10days/159.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/160.jpg" style="--r:1.778" data-t="10月31日 17:52"><img src="10days/160.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/161.jpg" style="--r:1.778" data-t="10月31日 17:55"><img src="10days/161.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+</div>
+</section>
+
+<section id="s21">
+<div class="num">21</div>
+<h2>百乐宫</h2>
+<div class="meta">10月31日夜 · 百乐宫温室花园与音乐喷泉</div>
+<p>天黑以后走进百乐宫的温室花园。这里每年随季节换五次景，我们赶上的是秋天：用浮木拼成的苍鹭站在水池里，一只伸着脖子，一只低头梳理羽毛；一只巨大的青蛙蹲在荷叶上；浮木拼成的熊、麋鹿、野兔散落在菊花丛中，一条鱼从水里跃起。一个用树脂做成的小女孩坐在树桩上，赤着脚，抱着膝盖，身边蹲着一只小狗，头顶是一树红叶。游客挤满了步道，人人举着手机。</p>
+<aside class="note lun"><span class="tag">议</span><p>这几天我们在荒野里看了太多“真”的东西：真的沙丘、真的盐滩、真的峡谷。回到这里，看到浮木拼成的熊和塑料的红叶，第一反应是好笑。可再看一会儿，又觉得有点感动——人类在一座沙漠城市的屋顶下，花了这么大力气，用浮木和鲜花，模仿一片自己很少有机会去的森林。模仿是一种思念。拉斯维加斯整座城，都是一封写给“别处”的情书。</p></aside>
+<p>出了温室，穿过金色穹顶的门廊，来到湖边。对岸是巴黎酒店的铁塔，灯光把它照成一根绿色的冰柱，旁边的星球好莱坞闪着彩灯，倒影在湖面上轻轻摇晃。八点整，音乐响起，喷泉从湖面升起，水柱一会儿旋转，一会儿散开，像一场水做的烟花。</p>
+<aside class="note kuang"><span class="tag">狂想</span><p>白天在胡佛大坝看到的米德湖“浴缸环”，晚上在百乐宫看到的“音乐喷泉”，用的是同一条河的水。如果这条河有知觉，它大概会觉得很荒诞：在上游，它被人类拦住、计量、分配，每一滴都要算清楚；到了这里，它被抛到几十米高的空中，跟着席琳·迪翁的歌跳舞。——不过公平地说，百乐宫的湖水用的是酒店自有的井水，循环使用。但河流大概不会听这种解释。</p></aside>
+<div class="g">
+<a href="10days/162.jpg" style="--r:1.778" data-t="10月31日 19:28"><img src="10days/162.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/163.jpg" style="--r:1.333" data-t="10月31日 19:28"><img src="10days/163.jpg" loading="lazy" alt="" width="2000" height="1500"></a>
+<a href="10days/164.jpg" style="--r:1.778" data-t="10月31日 19:29"><img src="10days/164.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/165.jpg" style="--r:1.778" data-t="10月31日 19:29"><img src="10days/165.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/166.jpg" style="--r:1.778" data-t="10月31日 19:29"><img src="10days/166.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/167.jpg" style="--r:1.401" data-t="10月31日 19:29"><img src="10days/167.jpg" loading="lazy" alt="" width="2000" height="1428"></a>
+<a href="10days/168.jpg" style="--r:1.333" data-t="10月31日 19:30"><img src="10days/168.jpg" loading="lazy" alt="" width="2000" height="1500"></a>
+<a href="10days/169.jpg" style="--r:1.778" data-t="10月31日 19:33"><img src="10days/169.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/170.jpg" style="--r:1.778" data-t="10月31日 19:40"><img src="10days/170.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/171.jpg" style="--r:1.778" data-t="10月31日 19:40"><img src="10days/171.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/172.jpg" style="--r:1.778" data-t="10月31日 20:04"><img src="10days/172.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+</div>
+</section>
+
+<section id="s22">
+<div class="num">22</div>
+<h2>O</h2>
+<div class="meta">10月31日夜 · 百乐宫剧院 · 太阳马戏团《O秀》</div>
+<div class="card"><b>名片</b>《O秀》：太阳马戏团驻百乐宫的水上剧目，1998年首演。舞台是一座约570万升（150万加仑）的水池，水深可达7.6米，舞台面可以在几秒钟内升降，一会儿是坚实的地面，一会儿深不见底。剧名来自法语“eau”（水）的发音。</div>
+<p>万圣节之夜，我们坐进了百乐宫剧院。开场前，两个穿着水手服的白脸小丑挤在一只铁皮洗澡盆里，在红色天鹅绒幕布前比比划划，逗得全场大笑。</p>
+<p>幕布拉开，舞台是一池水。演员赤脚走过水面，下一秒又纵身跃入深潭。一群涂成蓝色的人站在一块漂浮的平台上，叠成人塔，最上面的人倒立着，被抛向空中，划一道弧线落进水里。一面白色的幕布上，投出非洲草原的剪影：大象、角马、撑伞的人，影子在水面上走。</p>
+<p>最精彩的是那艘船：一艘只剩骨架、挂着破帆的船从天而降，悬在半空，演员在桅杆和绳索间翻飞，像一群被困在幽灵船上的水手。一个穿红衣的人站在船头，表情庄严。后来，红衣的杂技演员们在水中的浮台上叠成一座红色的人形雕塑，身后的水幕喷成一把蓝色的扇子。最后，所有演员在水面上谢幕，空中的吊环上还有人在旋转，蓝红两色的光把整个剧场染成梦的颜色。</p>
+<aside class="note lun"><span class="tag">议</span><p>坐在黑暗里，我忽然想起白天的羚羊峡谷。那里是水在亿万年里雕出了光与影；这里是人用灯和水在九十分钟里造出了一个梦。一个是大自然的作品，一个是人类的作品，可它们讲的是同一件事：水是一切变化的母亲。我们这一趟走过的每一处风景——沙丘、盐溪、峡谷、马蹄湾、大坝——说到底都是水的故事。没想到在拉斯维加斯的最后一夜，用一场水的演出，把这个故事讲完了。</p></aside>
+<aside class="note xu"><span class="tag">花絮</span><p>这一晚，从下午五点多出门到深夜十点半散场，手机拍了一百多张照片。走出剧院，万圣节的大街上全是奇装异服的人：吸血鬼、海盗、超级英雄……我们刚看完一个半小时的奇幻，出门又撞进了另一场。拉斯维加斯就是这样，你永远分不清，哪里是舞台，哪里是台下。</p></aside>
+<div class="g">
+<a href="10days/173.jpg" style="--r:1.500" data-t="10月31日 21:02"><img src="10days/173.jpg" loading="lazy" alt="" width="2000" height="1333"></a>
+<a href="10days/174.jpg" style="--r:1.778" data-t="10月31日 21:08"><img src="10days/174.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/175.jpg" style="--r:0.750" data-t="10月31日 21:12"><img src="10days/175.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/176.jpg" style="--r:1.778" data-t="10月31日 21:19"><img src="10days/176.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/177.jpg" style="--r:0.750" data-t="10月31日 21:20"><img src="10days/177.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/178.jpg" style="--r:0.750" data-t="10月31日 21:22"><img src="10days/178.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/179.jpg" style="--r:1.778" data-t="10月31日 21:23"><img src="10days/179.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/180.jpg" style="--r:1.778" data-t="10月31日 21:31"><img src="10days/180.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/181.jpg" style="--r:1.778" data-t="10月31日 21:32"><img src="10days/181.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/182.jpg" style="--r:1.333" data-t="10月31日 21:33"><img src="10days/182.jpg" loading="lazy" alt="" width="2000" height="1500"></a>
+<a href="10days/183.jpg" style="--r:1.333" data-t="10月31日 21:35"><img src="10days/183.jpg" loading="lazy" alt="" width="2000" height="1500"></a>
+<a href="10days/184.jpg" style="--r:1.500" data-t="10月31日 21:40"><img src="10days/184.jpg" loading="lazy" alt="" width="2000" height="1333"></a>
+<a href="10days/185.jpg" style="--r:1.000" data-t="10月31日 21:42"><img src="10days/185.jpg" loading="lazy" alt="" width="2000" height="2000"></a>
+<a href="10days/186.jpg" style="--r:0.750" data-t="10月31日 21:51"><img src="10days/186.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/187.jpg" style="--r:1.778" data-t="10月31日 22:07"><img src="10days/187.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/188.jpg" style="--r:0.750" data-t="10月31日 22:12"><img src="10days/188.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/189.jpg" style="--r:0.750" data-t="10月31日 22:14"><img src="10days/189.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/190.jpg" style="--r:0.750" data-t="10月31日 22:18"><img src="10days/190.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/191.jpg" style="--r:1.500" data-t="10月31日 22:19"><img src="10days/191.jpg" loading="lazy" alt="" width="2000" height="1333"></a>
+<a href="10days/192.jpg" style="--r:0.750" data-t="10月31日 22:21"><img src="10days/192.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/193.jpg" style="--r:1.778" data-t="10月31日 22:23"><img src="10days/193.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/194.jpg" style="--r:0.750" data-t="10月31日 22:26"><img src="10days/194.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/195.jpg" style="--r:1.778" data-t="10月31日 22:27"><img src="10days/195.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+</div>
+</section>
+
+<div class="day">第 八 日<small>11月1日 · 拉斯维加斯 · 归程</small></div>
+
+<section id="s23">
+<div class="num">23</div>
+<h2>多出来的一小时</h2>
+<div class="meta">11月1日 · 雨后的拉斯维加斯</div>
+<p>这一夜比平常长一个小时。凌晨两点，内华达的夏令时结束，时钟拨回一点。所以这趟旅行最后一夜，我们白白多得了六十分钟——就像城市送给游客的一份临别礼物。</p>
+<p>夜里下过一场雨。五点半醒来，窗外的城市依然灯火通明，马蹄铁赌场的招牌在黑暗里发着白光，远处巴黎铁塔的尖顶闪着红灯，湿漉漉的屋顶反射着霓虹。拉斯维加斯一年的降雨量只有一百毫米左右，我们正好赶上了。</p>
+<p>天亮以后出门散步。大道上空空荡荡，地面还是湿的，巴黎铁塔立在灰色的天空下，下面没有游客，只有一个穿着黄色背心的保安。热气球上的“Paris”字样在阴天里有点褪色，凯旋门在空荡的街道尽头显得格外庄重。一切都很安静，安静得不像拉斯维加斯。原来这座不夜城，也有睡觉的时候——只是睡在清晨，而不是夜里。</p>
+<p>走进奇迹一英里购物中心，天花板上画着一片永远不会下雨的蓝天和晚霞，云彩被灯光照得金黄。外面在下雨，里面是永恒的黄昏。早上七点半，店铺都还没开门，长长的走廊里只有我们和清洁工。这种感觉很奇妙：像是在剧场散场后，偷偷溜回空荡荡的舞台上。</p>
+<aside class="note lun"><span class="tag">议</span><p>拉斯维加斯花了很多钱，造了很多假天空：奇迹一英里的天空，威尼斯人的天空，凯撒宫的天空。我们在死亡谷、在布莱斯、在大峡谷，看了那么多真的天空：会下雪，会打雷，会烧起火烧云，会突然裂开一道缝漏下一束光。真的天空不可控，所以珍贵；假的天空永远晴朗，所以安全。人类建造城市，大概就是为了躲开那片不可控的天空——然后又花钱、开车、早起，回到它下面去。</p></aside>
+<p>雨后天色渐亮。百乐宫前的人行道上开始有了行人，火烈鸟酒店花园里的瀑布从假山上哗哗地流下来，粉色的火烈鸟招牌藏在绿树之间；一尊笑口常开的弥勒佛站在赌场门前的花园里，挺着肚子，笑看来往的人。从阿里亚的大楼间望过去，天边的乌云正一点点散开。</p>
+<div class="g">
+<a href="10days/196.jpg" style="--r:1.333" data-t="11月01日 05:34"><img src="10days/196.jpg" loading="lazy" alt="" width="2000" height="1500"></a>
+<a href="10days/197.jpg" style="--r:0.712" data-t="11月01日 07:10"><img src="10days/197.jpg" loading="lazy" alt="" width="1423" height="2000"></a>
+<a href="10days/198.jpg" style="--r:1.778" data-t="11月01日 07:16"><img src="10days/198.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/199.jpg" style="--r:0.750" data-t="11月01日 07:17"><img src="10days/199.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/200.jpg" style="--r:1.778" data-t="11月01日 07:21"><img src="10days/200.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/201.jpg" style="--r:1.778" data-t="11月01日 07:28"><img src="10days/201.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/202.jpg" style="--r:1.778" data-t="11月01日 07:28"><img src="10days/202.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/203.jpg" style="--r:0.750" data-t="11月01日 07:29"><img src="10days/203.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/204.jpg" style="--r:0.750" data-t="11月01日 07:29"><img src="10days/204.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/205.jpg" style="--r:1.778" data-t="11月01日 07:30"><img src="10days/205.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/206.jpg" style="--r:0.845" data-t="11月01日 07:31"><img src="10days/206.jpg" loading="lazy" alt="" width="1690" height="2000"></a>
+<a href="10days/207.jpg" style="--r:1.778" data-t="11月01日 07:33"><img src="10days/207.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/208.jpg" style="--r:0.910" data-t="11月01日 08:36"><img src="10days/208.jpg" loading="lazy" alt="" width="1820" height="2000"></a>
+<a href="10days/209.jpg" style="--r:0.750" data-t="11月01日 08:38"><img src="10days/209.jpg" loading="lazy" alt="" width="1500" height="2000"></a>
+<a href="10days/210.jpg" style="--r:0.683" data-t="11月01日 08:39"><img src="10days/210.jpg" loading="lazy" alt="" width="1367" height="2000"></a>
+<a href="10days/211.jpg" style="--r:1.778" data-t="11月01日 08:40"><img src="10days/211.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/212.jpg" style="--r:1.778" data-t="11月01日 08:43"><img src="10days/212.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+<a href="10days/213.jpg" style="--r:1.333" data-t="11月01日 09:21"><img src="10days/213.jpg" loading="lazy" alt="" width="2000" height="1500"></a>
+<a href="10days/214.jpg" style="--r:1.778" data-t="11月01日 09:22"><img src="10days/214.jpg" loading="lazy" alt="" width="2000" height="1125"></a>
+</div>
+</section>
+
+<hr>
+<section id="end" style="padding-top:60px">
+<h2 style="text-align:center;letter-spacing:.3em">尾 声</h2>
+<p>十天，从霓虹到盐滩，从最低点到高原，从红石到大河，再回到霓虹。</p>
+<p>回头翻照片，发现里面大多是石头：红的、白的、被雪覆盖的、被水雕过的、被风削尖的。石头不说话，却把时间一层一层写在自己身上——红石峡谷的石头讲的是一本被翻倒的书，死亡谷讲的是一片干掉的湖，布莱斯讲的是冰与火的拉锯，大峡谷讲的是十七亿年。我们只是路过，按了几下快门。</p>
+<p>可这一路，真正的主角其实是水。死亡谷里没有水，所以一切都被保存了下来；盐溪里只有一点水，所以活下来几条倔强的小鱼；羚羊峡谷和马蹄湾，是水的雕塑；胡佛大坝，是人与水的谈判；百乐宫的喷泉和《O秀》，是人对水的想象和赞美。我们从一片“没有水”的地方出发，最后在“水”的演出里结束——这大概不是计划好的，但旅行最好的部分，总是那些没有计划的部分。</p>
+<p>最后，送给自己一个狂想：如果有一天，人类真的离开了地球，留下的这些风景会怎样？恶水盆地的盐还会每年长出新的多边形，布莱斯的石柱还会一根根倒下又一根根长出，科罗拉多河会慢慢冲垮胡佛大坝、重新流向大海，拉斯维加斯的霓虹会熄灭，沙子会填满威尼斯人的运河。几百万年后，又会有一层新的岩石，把我们这个时代压在下面。到那时候，会不会有另一个物种，站在一道新的峡谷边上，指着其中薄薄的一层说：“看，这就是人类时代。他们在这里待过一小会儿，留下了一些混凝土、一些塑料，还有一些很漂亮的照片。”</p>
+</section>
+<p class="end">二〇二六年秋 · 沙海十日</p>
+
+</div>
+
+<div class="lb" id="lb" role="dialog" aria-label="大图"><img alt=""><button class="pv" aria-label="上一张">‹</button><button class="nx" aria-label="下一张">›</button><button class="cx" aria-label="关闭">×</button><div class="ct"></div></div>
+<script>
+(function(){
+  var lb=document.getElementById('lb'),im=lb.querySelector('img'),ct=lb.querySelector('.ct');
+  var links=Array.prototype.slice.call(document.querySelectorAll('.g a')),cur=-1;
+  function show(i){cur=(i+links.length)%links.length;var a=links[cur];im.src=a.getAttribute('href');ct.textContent=a.dataset.t+'　'+(cur+1)+' / '+links.length;lb.classList.add('on');}
+  function hide(){lb.classList.remove('on');im.src='';}
+  links.forEach(function(a,i){a.addEventListener('click',function(e){e.preventDefault();show(i);});});
+  lb.querySelector('.pv').onclick=function(e){e.stopPropagation();show(cur-1);};
+  lb.querySelector('.nx').onclick=function(e){e.stopPropagation();show(cur+1);};
+  lb.querySelector('.cx').onclick=hide;
+  im.onclick=function(e){e.stopPropagation();show(cur+1);};
+  lb.addEventListener('click',hide);
+  document.addEventListener('keydown',function(e){if(!lb.classList.contains('on'))return;if(e.key==='Escape')hide();else if(e.key==='ArrowLeft')show(cur-1);else if(e.key==='ArrowRight')show(cur+1);});
+  var x0=null;lb.addEventListener('touchstart',function(e){x0=e.touches[0].clientX;},{passive:true});
+  lb.addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)show(cur+(dx<0?1:-1));x0=null;});
+})();
+</script>
+</body>
+</html>
